@@ -24,7 +24,6 @@
 
 
 	<POIs>
-		<!--Wing 7-->
 		<POI MapID="1323" xpos="59.074" ypos="16.81203" zpos="290.1624" type="echo.w7.em.1" GUID="95I6jvWx5Em43w1gBPwwLA=="/>
 		<POI MapID="1323" xpos="62.18673" ypos="16.81203" zpos="267.8803" type="echo.w7.em.2" GUID="95I6jvWx5Em43w1gBPwwLA=="/>
 		<POI MapID="1323" xpos="79.66143" ypos="16.81203" zpos="255.3888" type="echo.w7.em.3" GUID="95I6jvWx5Em43w1gBPwwLA=="/>
