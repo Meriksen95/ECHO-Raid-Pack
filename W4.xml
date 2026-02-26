@@ -1,0 +1,32 @@
+<OverlayData>
+<!-- 
+	pm = portal markers
+		pe = portal entree
+		pex = portal exit
+
+	em = encounter marker
+		1 = arrow
+		2 = circle
+		...
+
+	nav = navigation markers
+		n = north
+		e = east
+		...
+-->
+	<POIs>
+		
+		<!-- Mursaat Overseer cliff portal -->
+		<POI MapID="1188" xpos="220.1681" ypos="21.18321" zpos="73.31831" type="echo.main.pm.pe" GUID="mU5irJ4giUSEK87p1nhyrQ=="/>
+		<POI MapID="1188" xpos="170.8192" ypos="87.48589" zpos="77.79416" type="echo.main.pm.pex" GUID="jIyTL9BxUE+tLI2WJiFnkg=="/>
+		
+		<!-- Deimos directions -->
+		<POI MapID="1188" xpos="-200.122" ypos="357.718" zpos="127.408" type="echo.main.nav.n" GUID="weLrwIrcB0ejvOt/qVjYAQ=="/>
+		<POI MapID="1188" xpos="-211.159" ypos="357.718" zpos="85.039" type="echo.main.nav.s" GUID="7dqB8mdJE0OgPGrOxOelXA=="/>
+		<POI MapID="1188" xpos="-184.3" ypos="357.718" zpos="100.426" type="echo.main.nav.e" GUID="2IOrXhk+WUaN9mM5/lXk7w=="/>
+		<POI MapID="1188" xpos="-227.283" ypos="357.718" zpos="112.708" type="echo.main.nav.w" GUID="beyosKU210yZWC6S2YIh5w=="/>
+    	
+	</POIs>
+
+</OverlayData>
+

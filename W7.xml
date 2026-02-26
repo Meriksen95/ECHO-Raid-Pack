@@ -1,37 +1,31 @@
 <OverlayData>
+<!-- 
+	pm = portal markers
+		pe = portal entree
+		pex = portal exit
 
-	<MarkerCategory name="echo" displayName="ECHO Raid Pack">
-		
-		<MarkerCategory name="w7" displayName="Wing 7" mapVisibility="0">
-			<MarkerCategory name="pm" displayName="Portals" alpha="0.4" heightOffset="0.1" rotate-z="90" fadeNear="1500" fadeFar="2500">
-				<MarkerCategory name="pe" displayName="Portal Entre" iconFile="Data/Markers/Portal_Entre.png" ishidden="1"/>
-				<MarkerCategory name="pex" displayName="Portal Exeunt"  iconFile="Data/Markers/Portal_Exeunt.png" ishidden="1"/>
-			</MarkerCategory>
-			<MarkerCategory name="em" displayName="Encounter markers" alpha="0.8" iconSize="0.75" heightOffset="1" fadeNear="3500" fadeFar="4000">
-				<MarkerCategory name="1" displayName="Arrow" iconFile="Data/Markers/cm_arrow.png" ishidden="1"/>
-				<MarkerCategory name="2" displayName="Circle" iconFile="Data/Markers/cm_circle.png" ishidden="1"/>
-				<MarkerCategory name="3" displayName="Heart" iconFile="Data/Markers/cm_heart.png" ishidden="1"/>
-				<MarkerCategory name="4" displayName="Square" iconFile="Data/Markers/cm_square.png" ishidden="1"/>
-				<MarkerCategory name="5" displayName="Star" iconFile="Data/Markers/cm_star.png" ishidden="1"/>
-				<MarkerCategory name="6" displayName="Swirl" iconFile="Data/Markers/cm_swirl.png" ishidden="1"/>
-				<MarkerCategory name="7" displayName="Triangle" iconFile="Data/Markers/cm_triangle.png" ishidden="1"/>
-				<MarkerCategory name="8" displayName="Cross" iconFile="Data/Markers/cm_cross.png" ishidden="1"/>
-			</MarkerCategory>
-		</MarkerCategory>
-		
-	</MarkerCategory>
-	
+	em = encounter marker
+		1 = arrow
+		2 = circle
+		...
 
+	nav = navigation markers
+		n = north
+		e = east
+		...
+-->
 
 	<POIs>
-		<POI MapID="1323" xpos="59.074" ypos="16.81203" zpos="290.1624" type="echo.w7.em.1" GUID="95I6jvWx5Em43w1gBPwwLA=="/>
-		<POI MapID="1323" xpos="62.18673" ypos="16.81203" zpos="267.8803" type="echo.w7.em.2" GUID="95I6jvWx5Em43w1gBPwwLA=="/>
-		<POI MapID="1323" xpos="79.66143" ypos="16.81203" zpos="255.3888" type="echo.w7.em.3" GUID="95I6jvWx5Em43w1gBPwwLA=="/>
-		<POI MapID="1323" xpos="60.34693" ypos="16.81203" zpos="221.8175" type="echo.w7.em.4" GUID="95I6jvWx5Em43w1gBPwwLA=="/>
-		<POI MapID="1323" xpos="32.42783" ypos="16.81203" zpos="229.6819" type="echo.w7.em.5" GUID="95I6jvWx5Em43w1gBPwwLA=="/>
-		<POI MapID="1323" xpos="22.11035" ypos="16.81203" zpos="223.453" type="echo.w7.em.6" GUID="95I6jvWx5Em43w1gBPwwLA=="/>
-		<POI MapID="1323" xpos="3.08883" ypos="16.81203" zpos="255.3388" type="echo.w7.em.7" GUID="95I6jvWx5Em43w1gBPwwLA=="/>
-		<POI MapID="1323" xpos="21.5676" ypos="16.81203" zpos="267.3257" type="echo.w7.em.8" GUID="95I6jvWx5Em43w1gBPwwLA=="/>
+
+		<!-- commander markers -->
+		<POI MapID="1323" xpos="59.074" ypos="16.81203" zpos="290.1624" type="echo.main.em.1" GUID="95I6jvWx5Em43w1gBPwwLA=="/>
+		<POI MapID="1323" xpos="62.18673" ypos="16.81203" zpos="267.8803" type="echo.main.em.2" GUID="95I6jvWx5Em43w1gBPwwLA=="/>
+		<POI MapID="1323" xpos="79.66143" ypos="16.81203" zpos="255.3888" type="echo.main.em.3" GUID="95I6jvWx5Em43w1gBPwwLA=="/>
+		<POI MapID="1323" xpos="60.34693" ypos="16.81203" zpos="221.8175" type="echo.main.em.4" GUID="95I6jvWx5Em43w1gBPwwLA=="/>
+		<POI MapID="1323" xpos="32.42783" ypos="16.81203" zpos="229.6819" type="echo.main.em.5" GUID="95I6jvWx5Em43w1gBPwwLA=="/>
+		<POI MapID="1323" xpos="22.11035" ypos="16.81203" zpos="223.453" type="echo.main.em.6" GUID="95I6jvWx5Em43w1gBPwwLA=="/>
+		<POI MapID="1323" xpos="3.08883" ypos="16.81203" zpos="255.3388" type="echo.main.em.7" GUID="95I6jvWx5Em43w1gBPwwLA=="/>
+		<POI MapID="1323" xpos="21.5676" ypos="16.81203" zpos="267.3257" type="echo.main.em.8" GUID="95I6jvWx5Em43w1gBPwwLA=="/>
 
 	</POIs>
 
