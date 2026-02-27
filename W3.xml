@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OverlayData>
+
+	<MarkerCategory name="echo" displayName="ECHO Raid Pack"></MarkerCategory>
+
+	<POIs>
+
+		<!-- Glenna bugging markers -->
+		<POI MapID="1156" xpos="214.2337" ypos="82.39154" zpos="533.5374" type="echo.w3.om.bm" GUID="5DTF8nuL7EOzQg+HF8ME9g=="/>
+		<POI MapID="1156" xpos="189.827" ypos="76.95336" zpos="518.3619" type="echo.w3.om.bm" GUID="j0egqqFwYEiWILWxAoNWIQ=="/>
+		<POI MapID="1156" xpos="167.082" ypos="76.71508" zpos="505.6753" type="echo.w3.om.bm" GUID="RO2x9m/duU+2H54U3WnNAA=="/>
+		<POI MapID="1156" xpos="151.7318" ypos="69.29697" zpos="492.4466" type="echo.w3.om.bm" GUID="AzyBAsy20U+BHj0Q7awhVg=="/>
+		<POI MapID="1156" xpos="132.5816" ypos="85.90756" zpos="509.227" type="echo.w3.om.bm" GUID="pfRfMBiLLUKP70Ew6Rf31w=="/>
+		
+		<!-- Group portal markers -->
+		<POI MapID="1156" xpos="163.201" ypos="76.63898" zpos="493.8313" type="echo.w3.pm.pe" GUID="YYcQFD8j7EW3DiryOQ/Osg==" info="Group portal"/>
+		<POI MapID="1156" xpos="139.7499" ypos="96.7466" zpos="496.678" type="echo.w3.pm.pex" GUID="Iyn1P7qELUiKylyySQN24w=="/>
+
+		<POI MapID="1156" xpos="-41.35059" ypos="137.0422" zpos="452.8676" type="echo.w3.pm.pex" GUID="6tCsnYbHn02HditTFPgHcQ=="info="Get up extra people"/>
+		<POI MapID="1156" xpos="-65.46062" ypos="134.4196" zpos="435.8052" type="echo.w3.pm.pe" GUID="2280eCd7IE6yM7+JvDUI3Q=="/>
+		
+		<!-- Glenna bugger portal markers -->
+		<POI MapID="1156" xpos="159.1998" ypos="76.63898" zpos="495.7947" type="echo.w3.pm.pe" GUID="EBxZOn87mUWfqPDmsxivCQ==" info="Buggers portal - jump down and bug glenna to edge"/>
+		<POI MapID="1156" xpos="152.4988" ypos="69.12948" zpos="493.405" type="echo.w3.pm.pex" GUID="DYJsny30kEicByOEs4wb2g=="/>
+
+		<!-- Thief portal markers -->
+		<POI MapID="1156" xpos="69.38522" ypos="87.42163" zpos="511.2589" type="echo.w3.pm.pe" GUID="Vv86f+eHX0WsrQ5vkxDjtQ=="/>
+		<POI MapID="1156" xpos="61.52676" ypos="100.4101" zpos="505.3205" type="echo.w3.pm.pex" GUID="re891MDWBEKmWwJKf8MQSQ=="/>
+		
+		<!-- Blink markers -->
+		<POI MapID="1156" xpos="159.5972" ypos="76.63898" zpos="492.916" type="echo.w3.om.lm" GUID="Tx+DcBE2aEiPBDIaOVg9Bw=="/>
+		<POI MapID="1156" xpos="144.6689" ypos="98.02272" zpos="491.8281" type="echo.w3.om.tm" GUID="ukyrE1fsw0C2/Xzrnc0WZg=="/>
+
+		<!-- CM reminder -->
+		<POI MapID="1156" xpos="-86.98457" ypos="141.2715" zpos="288.8805" type="echo.w3.om.im" GUID="oS5UpdiaF0i99xx7/F31Aw==" info="CM reminder!" inforange="20"/>
+
+		<!-- Twisted castle -->
+		<POI MapID="1156" xpos="-79.92234" ypos="138.8392" zpos="122.7908" type="echo.w3.om.lem" GUID="WPWDJBpjk0GI8Ak5IwaEEA=="/>
+		<POI MapID="1156" xpos="-105.8833" ypos="141.0191" zpos="156.5921" type="echo.w3.pm.pe" GUID="9Ty03axbFEOJXLdg4/0fPw=="/>
+		<POI MapID="1156" xpos="-69.62904" ypos="122.1316" zpos="95.15706" type="echo.w3.pm.pex" GUID="b4JjYFpptEuRYQcFAY8WCQ=="/>
+		<POI MapID="1156" xpos="-140.0882" ypos="136.128" zpos="164.3006" type="echo.w3.om.lem" GUID="7iK7AElYdU+N74ykrRbj7g=="/>
+		<POI MapID="1156" xpos="-118.6843" ypos="140.8825" zpos="160.9724" type="echo.w3.pm.pe" GUID="iN1j+ZMxykqTUhQHk0Wu8Q=="/>
+		<POI MapID="1156" xpos="-175.0139" ypos="118.0697" zpos="118.9108" type="echo.w3.pm.pex" GUID="w3WxFslefkeBrYovfBf7eA=="/>
+		<POI MapID="1156" xpos="-152.549" ypos="125.806" zpos="140.219" type="echo.w3.om.tm" GUID="kfWXC8eb+Uqne5eiKrVksA=="/>
+
+		<!-- Solo Mirage leaps -->
+		<POI MapID="1156" xpos="-152.8904" ypos="196.8115" zpos="-12.79553" type="echo.w3.om.lem" GUID="aOLIggqfqEKaH8GEb1Os8A=="/>
+		<POI MapID="1156" xpos="-171.1509" ypos="196.9125" zpos="-14.48404" type="echo.w3.om.tm" GUID="1O3cHLDK+k63Bvy4c9nL5g=="/>
+		<POI MapID="1156" xpos="-172.3892" ypos="197.5659" zpos="-15.4017" type="echo.w3.om.lem" GUID="ufENTAB8WE2IfdLzQ3WpAQ=="/>
+		<POI MapID="1156" xpos="-181.5467" ypos="196.6347" zpos="-26.61794" type="echo.w3.om.tm" GUID="rbp6a9sZTEiayFCqrz36Tg=="/>
+
+	</POIs>
+
+
+	
+</OverlayData>
+

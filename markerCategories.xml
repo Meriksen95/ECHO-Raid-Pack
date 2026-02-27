@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OverlayData>
+
+	<MarkerCategory name="echo" displayName="ECHO Raid Pack" fadeNear="3500" fadeFar="4000">
+		
+		<MarkerCategory name="w6" displayName="master" ishidden="0">
+			
+			<!-- Other Markers -->
+			<MarkerCategory name="om" displayName="Other markers" alpha="0.6" heightOffset="0.2" iconSize="0.8">
+				<MarkerCategory name="im" displayName="Information marker"  iconFile="Data/Markers/information_marker.png" iconSize="1"/>
+				<MarkerCategory name="lm" displayName="Location marker"  iconFile="Data/Markers/location_marker.png"/>
+				<MarkerCategory name="tm" displayName="Target marker" iconFile="Data/Markers/target_marker.png"/>
+				<MarkerCategory name="lem" displayName="Leap marker"  iconFile="Data/Markers/leap_marker.png"/>
+				<MarkerCategory name="bm" displayName="Bugging marker"  iconFile="Data/Markers/bugging_marker.png"/>		
+				<MarkerCategory name="sm" displayName="Stealth marker"  iconFile="Data/Markers/stealth_marker.png"/>
+			</MarkerCategory>
+
+			<!-- Portal Markers -->
+			<MarkerCategory name="pm" displayName="Portals" alpha="0.4" heightOffset="0.2" iconSize="0.8">
+				<MarkerCategory name="pe" displayName="Portal Entre" iconFile="Data/Markers/Portal_in.png"/>
+				<MarkerCategory name="pex" displayName="Portal Exeunt"  iconFile="Data/Markers/Portal_out.png"/>
+			</MarkerCategory>
+			
+			<!-- Direction Markers -->
+			<MarkerCategory name="nav" displayName="Direction" iconSize="0.5" alpha="0.75">
+				<MarkerCategory name="n" displayName="North"  iconFile="Data/Markers/Letter_markers/n.png"/>
+				<MarkerCategory name="s" displayName="South"  iconFile="Data/Markers/Letter_markers/s.png"/>
+				<MarkerCategory name="e" displayName="East"  iconFile="Data/Markers/Letter_markers/e.png"/>
+				<MarkerCategory name="w" displayName="West"  iconFile="Data/Markers/Letter_markers/w.png"/>
+			</MarkerCategory>
+			
+			<!-- Encounter Markers / Commander Markers -->
+			<MarkerCategory name="em" displayName="Encounter markers" alpha="0.8" iconSize="0.75" heightOffset="1">
+				<MarkerCategory name="1" displayName="Arrow" iconFile="Data/Markers/Commander_markers/arrow.png"/>
+				<MarkerCategory name="2" displayName="Circle" iconFile="Data/Markers/Commander_markers/circle.png"/>
+				<MarkerCategory name="3" displayName="Heart" iconFile="Data/Markers/Commander_markers/heart.png"/>
+				<MarkerCategory name="4" displayName="Square" iconFile="Data/Markers/Commander_markers/square.png"/>
+				<MarkerCategory name="5" displayName="Star" iconFile="Data/Markers/Commander_markers/star.png"/>
+				<MarkerCategory name="6" displayName="Swirl" iconFile="Data/Markers/Commander_markers/swirl.png"/>
+				<MarkerCategory name="7" displayName="Triangle" iconFile="Data/Markers/Commander_markers/triangle.png"/>
+				<MarkerCategory name="8" displayName="Cross" iconFile="Data/Markers/Commander_markers/cross.png"/>
+			</MarkerCategory>
+
+			<MarkerCategory name="boon" displayName="Boon markers" alpha="0.8" heightOffset="1" iconSize="0.8">
+				<MarkerCategory name="stab" displayName="Stability" iconFile="Data/Markers/Boons/Stability.png"/>
+				<MarkerCategory name="prot" displayName="Protection" iconFile="Data/Markers/Boons/Protection.png"/>
+				<MarkerCategory name="res" displayName="Resolution" iconFile="Data/Markers/Boons/Resolution.png"/>
+			</MarkerCategory>
+
+		</MarkerCategory>
+
+	</MarkerCategory>	
+	
+</OverlayData>
+

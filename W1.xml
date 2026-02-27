@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OverlayData>
+
+	<MarkerCategory name="echo" displayName="ECHO Raid Pack"></MarkerCategory>
+
+	<POIs>
+
+		<!-- Gorseval -->
+		<POI MapID="1062" xpos="21.51448" ypos="50.20246" zpos="-92.92931" type="echo.w1.em.1" GUID="B9oT8nrlSU61z9cHW23Orw=="/>
+		<POI MapID="1062" xpos="63.37622" ypos="50.54105" zpos="-93.33667" type="echo.w1.em.2" GUID="nhnakyMpbEKcyH8AA7MOtw=="/>
+		<POI MapID="1062" xpos="62.94762" ypos="50.46142" zpos="-132.0458" type="echo.w1.em.3" GUID="xTxthuUoXUu4OLhx3tKrtw=="/>
+		<POI MapID="1062" xpos="21.94555" ypos="50.22355" zpos="-134.7969" type="echo.w1.em.4" GUID="bBGaoETG00WcWu5UIAw7sA=="/>
+
+		<!-- Sabetha -->
+		<POI MapID="1062" xpos="-126.6143" ypos="62.71625" zpos="116.0222" type="echo.w1.nav.n" GUID="2rxgroyy0E+d9skLWHR7Gg==" iconSize="1"/>
+		<POI MapID="1062" xpos="-132.9438" ypos="62.48758" zpos="51.89294" type="echo.w1.nav.s" GUID="cnLD/0hBq0ueQkoJ5Wkbow==" iconSize="1"/>
+		<POI MapID="1062" xpos="-97.53791" ypos="62.70077" zpos="80.94965" type="echo.w1.nav.e" GUID="ABLT/aAtbkSdsjLxpmezew==" iconSize="1"/>
+		<POI MapID="1062" xpos="-162.0545" ypos="61.79343" zpos="87.17853" type="echo.w1.nav.w" GUID="KxBaqpDRXEiotjWJUAF0jA==" iconSize="1"/>
+
+	</POIs>
+
+
+	
+</OverlayData>
+

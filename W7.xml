@@ -1,33 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
 <OverlayData>
-<!-- 
-	pm = portal markers
-		pe = portal entree
-		pex = portal exit
 
-	em = encounter marker
-		1 = arrow
-		2 = circle
-		...
-
-	nav = navigation markers
-		n = north
-		e = east
-		...
--->
+	<MarkerCategory name="echo" displayName="ECHO Raid Pack"></MarkerCategory>
 
 	<POIs>
 
-		<!-- commander markers -->
-		<POI MapID="1323" xpos="59.074" ypos="16.81203" zpos="290.1624" type="echo.main.em.1" GUID="95I6jvWx5Em43w1gBPwwLA=="/>
-		<POI MapID="1323" xpos="62.18673" ypos="16.81203" zpos="267.8803" type="echo.main.em.2" GUID="95I6jvWx5Em43w1gBPwwLA=="/>
-		<POI MapID="1323" xpos="79.66143" ypos="16.81203" zpos="255.3888" type="echo.main.em.3" GUID="95I6jvWx5Em43w1gBPwwLA=="/>
-		<POI MapID="1323" xpos="60.34693" ypos="16.81203" zpos="221.8175" type="echo.main.em.4" GUID="95I6jvWx5Em43w1gBPwwLA=="/>
-		<POI MapID="1323" xpos="32.42783" ypos="16.81203" zpos="229.6819" type="echo.main.em.5" GUID="95I6jvWx5Em43w1gBPwwLA=="/>
-		<POI MapID="1323" xpos="22.11035" ypos="16.81203" zpos="223.453" type="echo.main.em.6" GUID="95I6jvWx5Em43w1gBPwwLA=="/>
-		<POI MapID="1323" xpos="3.08883" ypos="16.81203" zpos="255.3388" type="echo.main.em.7" GUID="95I6jvWx5Em43w1gBPwwLA=="/>
-		<POI MapID="1323" xpos="21.5676" ypos="16.81203" zpos="267.3257" type="echo.main.em.8" GUID="95I6jvWx5Em43w1gBPwwLA=="/>
+		<!-- Sabir -->
+		
+		<POI MapID="1323" xpos="-325.3501" ypos="51.83863" zpos="73.98367" type="echo.w7.pm.pex" GUID="/i8VbWgy3UiurAS+aPMTXA=="/>
+
+		<!-- QtP Encounter markers-->
+		<POI MapID="1323" xpos="59.074" ypos="16.81203" zpos="290.1624" type="echo.w7.em.1" GUID="95I6jvWx5Em43w1gBPwwLA=="/>
+		<POI MapID="1323" xpos="62.18673" ypos="16.81203" zpos="267.8803" type="echo.w7.em.2" GUID="RQPT+rKaK0KEXl33Oq6c5Q=="/>
+		<POI MapID="1323" xpos="79.66143" ypos="16.81203" zpos="255.3888" type="echo.w7.em.3" GUID="URz2ggIzbUeOoblfl7Ctmg=="/>
+		<POI MapID="1323" xpos="60.34693" ypos="16.81203" zpos="221.8175" type="echo.w7.em.4" GUID="zJgSytwvY0CroWHIGrLuJg=="/>
+		<POI MapID="1323" xpos="32.42783" ypos="16.81203" zpos="229.6819" type="echo.w7.em.5" GUID="FxgPZyppDUiVqrdyznkf+g=="/>
+		<POI MapID="1323" xpos="22.11035" ypos="16.81203" zpos="223.453" type="echo.w7.em.6" GUID="tk4CV2hFLUKiyFUp37W0Jg=="/>
+		<POI MapID="1323" xpos="3.08883" ypos="16.81203" zpos="255.3388" type="echo.w7.em.7" GUID="2oF41KqjdEup8pcPiGg0FQ=="/>
+		<POI MapID="1323" xpos="21.5676" ypos="16.81203" zpos="267.3257" type="echo.w7.em.8" GUID="944prqXdQku+vm279fZLag=="/>
 
 	</POIs>
 
+
+	
 </OverlayData>
 

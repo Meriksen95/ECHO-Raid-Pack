@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OverlayData>
+
+	<MarkerCategory name="echo" displayName="ECHO Raid Pack"></MarkerCategory>
+
+	<POIs>
+
+		<!-- Sloth pre -->
+		<POI MapID="1149" xpos="225.9543" ypos="7.109398" zpos="209.9658" type="echo.w2.om.sm" GUID="5hn6s4R0W0mtDfHEzeDWkg==" info="Continuum Split Mass invisbilty. &#xA;Place portal midways - mimic, blink and blink"/>
+		<POI MapID="1149" xpos="244.547" ypos="26.5009" zpos="118.6214" type="echo.w2.pm.pe" GUID="5+WzT8XT7kG5wyADpljmBw=="/>
+		<POI MapID="1149" xpos="209.267" ypos="7.07474" zpos="32.92615" type="echo.w2.pm.pex" GUID="lTWOSLaXiUm9GkTGEXSQNA=="/>
+
+		<!-- Trio to Matthias preperation -->
+		<POI MapID="1149" xpos="100.3235" ypos="80.02044" zpos="-93.32726" type="echo.w2.om.lm" GUID="78EelCROi0irGmJaSfdIDA==" info="Two people glides to the right and clear cliff for portals" inforange="15"/>
+		<POI MapID="1149" xpos="29.13213" ypos="59.2174" zpos="-125.2144" type="echo.w2.om.tm" GUID="rUCcSYaXNEO3jkRQYRTtLQ=="/>
+		<POI MapID="1149" xpos="14.5261" ypos="67.56553" zpos="-123.3254" type="echo.w2.om.lm" GUID="S8cpZx6HLUuLS9As14uIUg=="/>
+		<POI MapID="1149" xpos="13.17728" ypos="69.17399" zpos="-124.0299" type="echo.w2.om.tm" GUID="zyY/dJ0KzkuKuuIdjpxQow=="/>
+
+		<!-- Trio to Matthias portals -->
+		<!-- Trio to cliff -->
+		<POI MapID="1149" xpos="-45.7881" ypos="81.82374" zpos="-125.2394" type="echo.w2.om.im" GUID="UaVW1cGfEkeCMJOPyerVMg==" info="Help with Zane and portal back up with 3 more portals. &#xA;Jump down to help on Narella at 3:15."/>
+		<POI MapID="1149" xpos="-23.95034" ypos="5.997795" zpos="-215.184" type="echo.w2.pm.pe" GUID="w/22gEUVWke03Hy7qi5rUg=="/>
+		<POI MapID="1149" xpos="-29.80951" ypos="81.06027" zpos="-116.8328" type="echo.w2.pm.pex" GUID="1jrodoKyRkuCb0Kzkdt5gA=="/>
+
+		<!-- Cliff to first/second set of adds -->
+		<POI MapID="1149" xpos="-33.01886" ypos="83.50922" zpos="-104.1014" type="echo.w2.pm.pe" GUID="mgBChNKQJ06sJnJO3hNSxQ=="/>
+		<POI MapID="1149" xpos="-39.56486" ypos="104.0727" zpos="10.17319" type="echo.w2.pm.pex" GUID="HZ4Cuev4F0OX7tyYl72qoQ==" info="Place portal at 3:15 and run for Narella"/>
+
+		<!-- First adds to door -->
+		<POI MapID="1149" xpos="-56.31062" ypos="92.56225" zpos="-16.04578" type="echo.w2.pm.pe" GUID="Vhmpe5HXYkyAyPLb0cqFIA=="/>
+		<POI MapID="1149" xpos="-101.8564" ypos="111.9735" zpos="75.24142" type="echo.w2.pm.pex" GUID="9FT71DaG9kSHUBYvoXZUoQ==" info="Place portal at 3:13 and run for Narella"/>
+
+		<!-- Tent to door -->
+		<POI MapID="1149" xpos="-150.5983" ypos="131.5231" zpos="110.2623" type="echo.w2.pm.pex" GUID="ub0K/qnY60iQ+a+Q+lcumQ=="/>
+		<POI MapID="1149" xpos="-146.6929" ypos="131.5395" zpos="109.0148" type="echo.w2.om.lm" GUID="2kNrFehppkybRRtc+XdUVQ==" info="Portal your teammates from the tent to here. &#xA;Glide left around the wall"/>
+		<POI MapID="1149" xpos="-135.3755" ypos="121.1806" zpos="95.62092" type="echo.w2.om.lm" GUID="qy1xlxaKQ062ppzYAyX5Kg==" info="Stand here and jump to the target"/>
+		<POI MapID="1149" xpos="-133.9664" ypos="123.3972" zpos="98.90063" type="echo.w2.om.tm" GUID="jNBej+hOqUOYe5mfCd+fbA=="/>
+		<POI MapID="1149" xpos="-108.8723" ypos="104.61" zpos="210.714" type="echo.w2.pm.pe" GUID="XhmnCwpJcEWk3/HRL1V3gQ=="/>
+		
+	</POIs>
+
+
+	
+</OverlayData>
+

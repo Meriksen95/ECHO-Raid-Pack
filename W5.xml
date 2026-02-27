@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OverlayData>
+
+	<MarkerCategory name="echo" displayName="ECHO Raid Pack"></MarkerCategory>
+
+	<POIs>
+
+		<!-- Dhuum -->
+		<POI MapID="1264" xpos="428.9981" ypos="157.8671" zpos="30.76633" type="echo.w5.em.1" GUID="Qx5pJpDqnUKsEO2pR0Ihbg=="/>
+		<POI MapID="1264" xpos="427.7893" ypos="157.8669" zpos="2.011545" type="echo.w5.em.2" GUID="iLABI+1HoESmO98EwJScjg=="/>
+		<POI MapID="1264" xpos="404.6794" ypos="157.864" zpos="-14.61757" type="echo.w5.em.3" GUID="MnSOot6wg0SY+1VxjIqlzQ=="/>
+		<POI MapID="1264" xpos="377.8872" ypos="157.8605" zpos="-6.481599" type="echo.w5.em.4" GUID="SngmHY3Lg06ZUt6ZQvAj5w=="/>
+		<POI MapID="1264" xpos="365.9293" ypos="157.8867" zpos="19.37017" type="echo.w5.em.5" GUID="4Zw6aESXgkKShlb/h3a15A=="/>
+		<POI MapID="1264" xpos="379.0498" ypos="157.8604" zpos="44.93124" type="echo.w5.em.6" GUID="MB7zNrBJ7kei/gYv9a9/0w=="/>
+		<POI MapID="1264" xpos="407.7202" ypos="157.864" zpos="49.83854" type="echo.w5.em.7" GUID="l2sF1yTB5UKOEPKXUKSszQ=="/>
+
+	</POIs>
+
+
+	
+</OverlayData>
+

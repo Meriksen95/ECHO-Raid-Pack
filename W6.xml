@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OverlayData>
+
+	<MarkerCategory name="echo" displayName="ECHO Raid Pack"></MarkerCategory>
+
+	<POIs>
+
+		<!-- Qadim Pyre boons-->
+		<POI MapID="1303" xpos="-145.4107" ypos="120.1308" zpos="331.5365" type="echo.w6.boon.stab" GUID="cLXSyjKehk6Z7/nlISKjIg=="/>
+		<POI MapID="1303" xpos="-188.5022" ypos="120.1146" zpos="257.1821" type="echo.w6.boon.res" GUID="mZBjsGrO3ken/aOrS+5++Q=="/>
+		<POI MapID="1303" xpos="-231.9896" ypos="119.9184" zpos="331.7617" type="echo.w6.boon.prot" GUID="oD1Pv/2hKUuzS0tniiDWVg=="/>
+
+		<!-- Qadim stack location -->
+		<POI MapID="1303" xpos="-164.9571" ypos="120.1764" zpos="295.6609" type="echo.w6.om.lm" GUID="qSvOKH764U2aBu+Lp7xxbQ=="/>
+
+		<!-- Portal location -->
+		<POI MapID="1303" xpos="-185.0066" ypos="120.1684" zpos="293.4634" type="echo.w6.pm.pex" GUID="eVjcElk0e06kUQiUCvtw/g=="/>
+
+	</POIs>
+	
+</OverlayData>
+
