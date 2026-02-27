@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OverlayData>
+
+	<MarkerCategory name="echo" displayName="ECHO Raid Pack">
+		<MarkerCategory name="showcase" displayName="Showcase" heightOffset="0.1" ishidden="1" inGameVisibility="0">
+			<MarkerCategory name="im" displayName="Information marker"  iconFile="Data/Markers/information_marker.png" iconSize="1"/>
+			<MarkerCategory name="lm" displayName="Location marker"  iconFile="Data/Markers/location_marker.png"/>
+			<MarkerCategory name="tm" displayName="Target marker" iconFile="Data/Markers/target_marker.png"/>
+			<MarkerCategory name="lem" displayName="Leap marker"  iconFile="Data/Markers/leap_marker.png"/>
+			<MarkerCategory name="bm" displayName="Bugging marker"  iconFile="Data/Markers/bugging_marker.png"/>		
+			<MarkerCategory name="sm" displayName="Stealth marker"  iconFile="Data/Markers/stealth_marker.png"/>
+			<MarkerCategory name="pe" displayName="Portal Entre" iconFile="Data/Markers/Portal_in.png"/>
+			<MarkerCategory name="pex" displayName="Portal Exeunt"  iconFile="Data/Markers/Portal_out.png"/>
+		</MarkerCategory>	
+	</MarkerCategory>
+
+	<POIs>
+
+		<POI MapID="1558" xpos="86" ypos="15.31991" zpos="-31.879" type="echo.showcase.im" GUID="BJUsOIkkIEev2aiCyrMMNA=="/>
+		<POI MapID="1558" xpos="88" ypos="15.31991" zpos="-31.879" type="echo.showcase.lm" GUID="43J3wuAC6UqaLN5Fmb5V6A=="/>
+		<POI MapID="1558" xpos="90" ypos="15.31991" zpos="-31.879" type="echo.showcase.tm" GUID="98kdz6pW1UuYyAn4xEzhwA=="/>
+		<POI MapID="1558" xpos="92" ypos="15.31991" zpos="-31.879" type="echo.showcase.lem" GUID="56C4pApUoEexC2UwdgIh2g=="/>
+		<POI MapID="1558" xpos="94" ypos="15.31991" zpos="-31.879" type="echo.showcase.bm" GUID="SAoSdmytvUetyDH8+664UQ=="/>
+		<POI MapID="1558" xpos="96" ypos="15.31991" zpos="-31.879" type="echo.showcase.sm" GUID="Oyn+MuEwZ0yqBQHxobaQyQ=="/>
+		<POI MapID="1558" xpos="98" ypos="15.31991" zpos="-31.879" type="echo.showcase.pe" GUID="UHRWI6VPkEC7t29riIKnkg=="/>
+		<POI MapID="1558" xpos="100" ypos="15.31991" zpos="-31.879" type="echo.showcase.pex" GUID="Wl+Nmy339Eaww+B6tgIzhA=="/>
+
+	</POIs>
+
+
+	
+</OverlayData>
+
