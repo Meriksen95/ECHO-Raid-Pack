@@ -9,14 +9,14 @@
 		<POI MapID="1188" xpos="220.1681" ypos="21.18321" zpos="73.31831" type="echo.w4.pm.pe" GUID="mU5irJ4giUSEK87p1nhyrQ=="/>
 		<POI MapID="1188" xpos="170.8192" ypos="87.48589" zpos="77.79416" type="echo.w4.pm.pex" GUID="jIyTL9BxUE+tLI2WJiFnkg=="/>
 		<!-- Blink -->
-		<POI MapID="1188" xpos="183.3292" ypos="41.45767" zpos="47.53797" type="echo.w4.om.tm" GUID="KxpEk4W6ZkemTXYOCVNh/Q=="/>
-		<POI MapID="1188" xpos="182.8369" ypos="70.75492" zpos="43.41604" type="echo.w4.om.lm" GUID="+Hqh59f3kU24qEh8HjoxnQ=="/>
+		<POI MapID="1188" xpos="183.3292" ypos="41.45767" zpos="47.53797" type="echo.w4.om.lm" GUID="KxpEk4W6ZkemTXYOCVNh/Q=="/>
+		<POI MapID="1188" xpos="182.8369" ypos="70.75492" zpos="43.41604" type="echo.w4.om.tm" GUID="+Hqh59f3kU24qEh8HjoxnQ=="/>
 		
 		 <!-- Deimos directions -->
-		<POI MapID="1188" xpos="-200.122" ypos="357.718" zpos="127.408" type="echo.w4.nav.n" GUID="weLrwIrcB0ejvOt/qVjYAQ=="/>
-		<POI MapID="1188" xpos="-211.159" ypos="357.718" zpos="85.039" type="echo.w4.nav.s" GUID="7dqB8mdJE0OgPGrOxOelXA=="/>
-		<POI MapID="1188" xpos="-184.3" ypos="357.718" zpos="100.426" type="echo.w4.nav.e" GUID="2IOrXhk+WUaN9mM5/lXk7w=="/>
-		<POI MapID="1188" xpos="-227.283" ypos="357.718" zpos="112.708" type="echo.w4.nav.w" GUID="beyosKU210yZWC6S2YIh5w=="/>
+		<POI MapID="1188" xpos="-200.122" ypos="357.718" zpos="127.408" type="echo.w4.nav.n" GUID="weLrwIrcB0ejvOt/qVjYAQ==" iconSize="1.5"/>
+		<POI MapID="1188" xpos="-211.159" ypos="357.718" zpos="85.039" type="echo.w4.nav.s" GUID="7dqB8mdJE0OgPGrOxOelXA==" iconSize="1.5"/>
+		<POI MapID="1188" xpos="-184.3" ypos="357.718" zpos="100.426" type="echo.w4.nav.e" GUID="2IOrXhk+WUaN9mM5/lXk7w==" iconSize="1.5"/>
+		<POI MapID="1188" xpos="-227.283" ypos="357.718" zpos="112.708" type="echo.w4.nav.w" GUID="beyosKU210yZWC6S2YIh5w==" iconSize="1.5"/>
 
 	</POIs>
 

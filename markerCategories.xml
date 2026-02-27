@@ -27,6 +27,20 @@
 				<MarkerCategory name="e" displayName="East"  iconFile="Data/Markers/Letter_markers/e.png"/>
 				<MarkerCategory name="w" displayName="West"  iconFile="Data/Markers/Letter_markers/w.png"/>
 			</MarkerCategory>
+
+			<!--Number Markers -->
+			<MarkerCategory name="num" displayName="Numbers" iconSize="0.5" alpha="0.75">
+				<MarkerCategory name="1" displayName="1"  iconFile="Data/Markers/Numbers/1.png"/>
+				<MarkerCategory name="2" displayName="2"  iconFile="Data/Markers/Numbers/2.png"/>
+				<MarkerCategory name="3" displayName="3"  iconFile="Data/Markers/Numbers/3.png"/>
+				<MarkerCategory name="4" displayName="4"  iconFile="Data/Markers/Numbers/4.png"/>
+				<MarkerCategory name="5" displayName="5"  iconFile="Data/Markers/Numbers/4.png"/>
+				<MarkerCategory name="6" displayName="6"  iconFile="Data/Markers/Numbers/4.png"/>
+				<MarkerCategory name="7" displayName="7"  iconFile="Data/Markers/Numbers/4.png"/>
+				<MarkerCategory name="8" displayName="8"  iconFile="Data/Markers/Numbers/4.png"/>
+				<MarkerCategory name="9" displayName="9"  iconFile="Data/Markers/Numbers/4.png"/>
+				<MarkerCategory name="10" displayName="10"  iconFile="Data/Markers/Numbers/4.png"/>
+			</MarkerCategory>
 			
 			<!-- Encounter Markers / Commander Markers -->
 			<MarkerCategory name="em" displayName="Encounter markers" alpha="0.8" iconSize="0.75" heightOffset="1">
@@ -70,6 +84,20 @@
 				<MarkerCategory name="s" displayName="South"  iconFile="Data/Markers/Letter_markers/s.png"/>
 				<MarkerCategory name="e" displayName="East"  iconFile="Data/Markers/Letter_markers/e.png"/>
 				<MarkerCategory name="w" displayName="West"  iconFile="Data/Markers/Letter_markers/w.png"/>
+			</MarkerCategory>
+
+			<!--Number Markers -->
+			<MarkerCategory name="num" displayName="Numbers" iconSize="0.5" alpha="0.75">
+				<MarkerCategory name="1" displayName="1"  iconFile="Data/Markers/Numbers/1.png"/>
+				<MarkerCategory name="2" displayName="2"  iconFile="Data/Markers/Numbers/2.png"/>
+				<MarkerCategory name="3" displayName="3"  iconFile="Data/Markers/Numbers/3.png"/>
+				<MarkerCategory name="4" displayName="4"  iconFile="Data/Markers/Numbers/4.png"/>
+				<MarkerCategory name="5" displayName="5"  iconFile="Data/Markers/Numbers/4.png"/>
+				<MarkerCategory name="6" displayName="6"  iconFile="Data/Markers/Numbers/4.png"/>
+				<MarkerCategory name="7" displayName="7"  iconFile="Data/Markers/Numbers/4.png"/>
+				<MarkerCategory name="8" displayName="8"  iconFile="Data/Markers/Numbers/4.png"/>
+				<MarkerCategory name="9" displayName="9"  iconFile="Data/Markers/Numbers/4.png"/>
+				<MarkerCategory name="10" displayName="10"  iconFile="Data/Markers/Numbers/4.png"/>
 			</MarkerCategory>
 			
 			<!-- Encounter Markers / Commander Markers -->
@@ -116,6 +144,20 @@
 				<MarkerCategory name="e" displayName="East"  iconFile="Data/Markers/Letter_markers/e.png"/>
 				<MarkerCategory name="w" displayName="West"  iconFile="Data/Markers/Letter_markers/w.png"/>
 			</MarkerCategory>
+
+			<!--Number Markers -->
+			<MarkerCategory name="num" displayName="Numbers" iconSize="0.5" alpha="0.75">
+				<MarkerCategory name="1" displayName="1"  iconFile="Data/Markers/Numbers/1.png"/>
+				<MarkerCategory name="2" displayName="2"  iconFile="Data/Markers/Numbers/2.png"/>
+				<MarkerCategory name="3" displayName="3"  iconFile="Data/Markers/Numbers/3.png"/>
+				<MarkerCategory name="4" displayName="4"  iconFile="Data/Markers/Numbers/4.png"/>
+				<MarkerCategory name="5" displayName="5"  iconFile="Data/Markers/Numbers/4.png"/>
+				<MarkerCategory name="6" displayName="6"  iconFile="Data/Markers/Numbers/4.png"/>
+				<MarkerCategory name="7" displayName="7"  iconFile="Data/Markers/Numbers/4.png"/>
+				<MarkerCategory name="8" displayName="8"  iconFile="Data/Markers/Numbers/4.png"/>
+				<MarkerCategory name="9" displayName="9"  iconFile="Data/Markers/Numbers/4.png"/>
+				<MarkerCategory name="10" displayName="10"  iconFile="Data/Markers/Numbers/4.png"/>
+			</MarkerCategory>
 			
 			<!-- Encounter Markers / Commander Markers -->
 			<MarkerCategory name="em" displayName="Encounter markers" alpha="0.8" iconSize="0.75" heightOffset="1">
@@ -160,6 +202,20 @@
 				<MarkerCategory name="s" displayName="South"  iconFile="Data/Markers/Letter_markers/s.png"/>
 				<MarkerCategory name="e" displayName="East"  iconFile="Data/Markers/Letter_markers/e.png"/>
 				<MarkerCategory name="w" displayName="West"  iconFile="Data/Markers/Letter_markers/w.png"/>
+			</MarkerCategory>
+
+			<!--Number Markers -->
+			<MarkerCategory name="num" displayName="Numbers" iconSize="0.5" alpha="0.75">
+				<MarkerCategory name="1" displayName="1"  iconFile="Data/Markers/Numbers/1.png"/>
+				<MarkerCategory name="2" displayName="2"  iconFile="Data/Markers/Numbers/2.png"/>
+				<MarkerCategory name="3" displayName="3"  iconFile="Data/Markers/Numbers/3.png"/>
+				<MarkerCategory name="4" displayName="4"  iconFile="Data/Markers/Numbers/4.png"/>
+				<MarkerCategory name="5" displayName="5"  iconFile="Data/Markers/Numbers/4.png"/>
+				<MarkerCategory name="6" displayName="6"  iconFile="Data/Markers/Numbers/4.png"/>
+				<MarkerCategory name="7" displayName="7"  iconFile="Data/Markers/Numbers/4.png"/>
+				<MarkerCategory name="8" displayName="8"  iconFile="Data/Markers/Numbers/4.png"/>
+				<MarkerCategory name="9" displayName="9"  iconFile="Data/Markers/Numbers/4.png"/>
+				<MarkerCategory name="10" displayName="10"  iconFile="Data/Markers/Numbers/4.png"/>
 			</MarkerCategory>
 			
 			<!-- Encounter Markers / Commander Markers -->
@@ -206,6 +262,20 @@
 				<MarkerCategory name="e" displayName="East"  iconFile="Data/Markers/Letter_markers/e.png"/>
 				<MarkerCategory name="w" displayName="West"  iconFile="Data/Markers/Letter_markers/w.png"/>
 			</MarkerCategory>
+
+			<!--Number Markers -->
+			<MarkerCategory name="num" displayName="Numbers" iconSize="0.5" alpha="0.75">
+				<MarkerCategory name="1" displayName="1"  iconFile="Data/Markers/Numbers/1.png"/>
+				<MarkerCategory name="2" displayName="2"  iconFile="Data/Markers/Numbers/2.png"/>
+				<MarkerCategory name="3" displayName="3"  iconFile="Data/Markers/Numbers/3.png"/>
+				<MarkerCategory name="4" displayName="4"  iconFile="Data/Markers/Numbers/4.png"/>
+				<MarkerCategory name="5" displayName="5"  iconFile="Data/Markers/Numbers/4.png"/>
+				<MarkerCategory name="6" displayName="6"  iconFile="Data/Markers/Numbers/4.png"/>
+				<MarkerCategory name="7" displayName="7"  iconFile="Data/Markers/Numbers/4.png"/>
+				<MarkerCategory name="8" displayName="8"  iconFile="Data/Markers/Numbers/4.png"/>
+				<MarkerCategory name="9" displayName="9"  iconFile="Data/Markers/Numbers/4.png"/>
+				<MarkerCategory name="10" displayName="10"  iconFile="Data/Markers/Numbers/4.png"/>
+			</MarkerCategory>
 			
 			<!-- Encounter Markers / Commander Markers -->
 			<MarkerCategory name="em" displayName="Encounter markers" alpha="0.8" iconSize="0.75" heightOffset="1">
@@ -250,6 +320,20 @@
 				<MarkerCategory name="s" displayName="South"  iconFile="Data/Markers/Letter_markers/s.png"/>
 				<MarkerCategory name="e" displayName="East"  iconFile="Data/Markers/Letter_markers/e.png"/>
 				<MarkerCategory name="w" displayName="West"  iconFile="Data/Markers/Letter_markers/w.png"/>
+			</MarkerCategory>
+
+			<!--Number Markers -->
+			<MarkerCategory name="num" displayName="Numbers" iconSize="0.5" alpha="0.75">
+				<MarkerCategory name="1" displayName="1"  iconFile="Data/Markers/Numbers/1.png"/>
+				<MarkerCategory name="2" displayName="2"  iconFile="Data/Markers/Numbers/2.png"/>
+				<MarkerCategory name="3" displayName="3"  iconFile="Data/Markers/Numbers/3.png"/>
+				<MarkerCategory name="4" displayName="4"  iconFile="Data/Markers/Numbers/4.png"/>
+				<MarkerCategory name="5" displayName="5"  iconFile="Data/Markers/Numbers/4.png"/>
+				<MarkerCategory name="6" displayName="6"  iconFile="Data/Markers/Numbers/4.png"/>
+				<MarkerCategory name="7" displayName="7"  iconFile="Data/Markers/Numbers/4.png"/>
+				<MarkerCategory name="8" displayName="8"  iconFile="Data/Markers/Numbers/4.png"/>
+				<MarkerCategory name="9" displayName="9"  iconFile="Data/Markers/Numbers/4.png"/>
+				<MarkerCategory name="10" displayName="10"  iconFile="Data/Markers/Numbers/4.png"/>
 			</MarkerCategory>
 			
 			<!-- Encounter Markers / Commander Markers -->
@@ -296,6 +380,20 @@
 				<MarkerCategory name="e" displayName="East"  iconFile="Data/Markers/Letter_markers/e.png"/>
 				<MarkerCategory name="w" displayName="West"  iconFile="Data/Markers/Letter_markers/w.png"/>
 			</MarkerCategory>
+
+			<!--Number Markers -->
+			<MarkerCategory name="num" displayName="Numbers" iconSize="0.5" alpha="0.75">
+				<MarkerCategory name="1" displayName="1"  iconFile="Data/Markers/Numbers/1.png"/>
+				<MarkerCategory name="2" displayName="2"  iconFile="Data/Markers/Numbers/2.png"/>
+				<MarkerCategory name="3" displayName="3"  iconFile="Data/Markers/Numbers/3.png"/>
+				<MarkerCategory name="4" displayName="4"  iconFile="Data/Markers/Numbers/4.png"/>
+				<MarkerCategory name="5" displayName="5"  iconFile="Data/Markers/Numbers/4.png"/>
+				<MarkerCategory name="6" displayName="6"  iconFile="Data/Markers/Numbers/4.png"/>
+				<MarkerCategory name="7" displayName="7"  iconFile="Data/Markers/Numbers/4.png"/>
+				<MarkerCategory name="8" displayName="8"  iconFile="Data/Markers/Numbers/4.png"/>
+				<MarkerCategory name="9" displayName="9"  iconFile="Data/Markers/Numbers/4.png"/>
+				<MarkerCategory name="10" displayName="10"  iconFile="Data/Markers/Numbers/4.png"/>
+			</MarkerCategory>
 			
 			<!-- Encounter Markers / Commander Markers -->
 			<MarkerCategory name="em" displayName="Encounter markers" alpha="0.8" iconSize="0.75" heightOffset="1">
@@ -340,6 +438,20 @@
 				<MarkerCategory name="s" displayName="South"  iconFile="Data/Markers/Letter_markers/s.png"/>
 				<MarkerCategory name="e" displayName="East"  iconFile="Data/Markers/Letter_markers/e.png"/>
 				<MarkerCategory name="w" displayName="West"  iconFile="Data/Markers/Letter_markers/w.png"/>
+			</MarkerCategory>
+
+			<!--Number Markers -->
+			<MarkerCategory name="num" displayName="Numbers" iconSize="0.5" alpha="0.75">
+				<MarkerCategory name="1" displayName="1"  iconFile="Data/Markers/Numbers/1.png"/>
+				<MarkerCategory name="2" displayName="2"  iconFile="Data/Markers/Numbers/2.png"/>
+				<MarkerCategory name="3" displayName="3"  iconFile="Data/Markers/Numbers/3.png"/>
+				<MarkerCategory name="4" displayName="4"  iconFile="Data/Markers/Numbers/4.png"/>
+				<MarkerCategory name="5" displayName="5"  iconFile="Data/Markers/Numbers/4.png"/>
+				<MarkerCategory name="6" displayName="6"  iconFile="Data/Markers/Numbers/4.png"/>
+				<MarkerCategory name="7" displayName="7"  iconFile="Data/Markers/Numbers/4.png"/>
+				<MarkerCategory name="8" displayName="8"  iconFile="Data/Markers/Numbers/4.png"/>
+				<MarkerCategory name="9" displayName="9"  iconFile="Data/Markers/Numbers/4.png"/>
+				<MarkerCategory name="10" displayName="10"  iconFile="Data/Markers/Numbers/4.png"/>
 			</MarkerCategory>
 			
 			<!-- Encounter Markers / Commander Markers -->

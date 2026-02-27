@@ -5,6 +5,29 @@
 
 	<POIs>
 
+		<!-- Spirit runs wall skip -->
+		<POI MapID="1062" xpos="-133.6778" ypos="68.29175" zpos="-422.7561" type="echo.w1.om.lm" GUID="q5Tkg88aikGl5/l+vmHjcg=="/>
+		<POI MapID="1062" xpos="-127.9239" ypos="68.66907" zpos="-419.8233" type="echo.w1.om.tm" GUID="BtQa8YasOUi9R0gwGmpMnQ=="/>
+		<POI MapID="1062" xpos="-126.0421" ypos="69.34098" zpos="-409.6961" type="echo.w1.om.tm" GUID="zDnPD5Fr1U2NNccDAtO2fQ=="/>
+		<POI MapID="1062" xpos="-128.9049" ypos="72.1349" zpos="-408.7073" type="echo.w1.om.lm" GUID="EybV1pUoTkmcObDEidlA5w=="/>
+		<POI MapID="1062" xpos="-104.09" ypos="67.74079" zpos="-414.1226" type="echo.w1.om.tm" GUID="7U5/OZcyP06OwIY+smds/Q=="/>
+		<POI MapID="1062" xpos="-103.0724" ypos="68.26795" zpos="-413.2947" type="echo.w1.om.lem" GUID="2+QYd3z8yEW2mNBrAt/5Ew==" info="You will have to use Mirage Sword 1 after a dodge or something like a Thief staff 5. Aim for the target"/>
+		<POI MapID="1062" xpos="-96.66387" ypos="70.94244" zpos="-403.251" type="echo.w1.om.tm" GUID="wP4GYTZJ/EiC46jnZGv6xw=="/>
+		<POI MapID="1062" xpos="-74.15808" ypos="77.25695" zpos="-434.4207" type="echo.w1.om.lm" GUID="vYx+K1XGTkmCm35VgnYtAA==" info="Somewhat tricky to jump - take your time"/>
+		<POI MapID="1062" xpos="-73.56417" ypos="79.30082" zpos="-435.0229" type="echo.w1.om.tm" GUID="lq42RnylnECKgv7e+KsCdw=="/>
+		<POI MapID="1062" xpos="-101.481" ypos="92.08644" zpos="-446.0786" type="echo.w1.om.lm" GUID="rz8Ff15GW0KH9a+pYI/wXw=="/>
+		<POI MapID="1062" xpos="-126.0502" ypos="85.65167" zpos="-427.4966" type="echo.w1.om.tm" GUID="k6SDaUz/CUCer8Y/FKRN+Q=="/>
+		<POI MapID="1062" xpos="-120.9685" ypos="90.39012" zpos="-427.6389" type="echo.w1.om.lm" GUID="mTuCRW2Ua02Qtc/lLfBehQ=="/>
+		<POI MapID="1062" xpos="-124.6152" ypos="91.06275" zpos="-422.4458" type="echo.w1.om.tm" GUID="n8w0R0ZcuEaAI7qI2ea11A==" info="You will glide under the ledge towards the group. &#xA;Make sure always lean forward. "/>
+		<POI MapID="1062" xpos="-117.2136" ypos="80.3201" zpos="-379.1671" type="echo.w1.om.tm" GUID="pmxsJqh8bU2a3PPvC8nWIQ=="/>
+		<POI MapID="1062" xpos="-145.9109" ypos="61.9902" zpos="-342.9952" type="echo.w1.om.tm" GUID="LUVGyzi5nkml9HACe1dphA=="/>
+		<POI MapID="1062" xpos="-144.9541" ypos="66.71403" zpos="-317.6626" type="echo.w1.om.lem" GUID="gHUOTBc/U0SMZXGZGMjcCA=="/>
+		<POI MapID="1062" xpos="-144.6981" ypos="65.61847" zpos="-298.469" type="echo.w1.om.tm" GUID="Lj8UjMS3tEix0mkr2HJRIw=="/>
+		<POI MapID="1062" xpos="-130.2097" ypos="59.64097" zpos="-268.5258" type="echo.w1.om.tm" GUID="/ZntsSAq80qSKneR9+HmxA=="/>
+		<POI MapID="1062" xpos="-108.8639" ypos="42.62286" zpos="-314.8376" type="echo.w1.pm.pe" GUID="RVOxK8AcKk6R9bIkPMW/Tw=="/>
+		<POI MapID="1062" xpos="-126.3135" ypos="60.62063" zpos="-261.0838" type="echo.w1.pm.pex" GUID="/pdn6K7T/EGS+GoxD5f+Ew=="/>
+
+
 		<!-- Gorseval -->
 		<POI MapID="1062" xpos="21.51448" ypos="50.20246" zpos="-92.92931" type="echo.w1.em.1" GUID="B9oT8nrlSU61z9cHW23Orw=="/>
 		<POI MapID="1062" xpos="63.37622" ypos="50.54105" zpos="-93.33667" type="echo.w1.em.2" GUID="nhnakyMpbEKcyH8AA7MOtw=="/>
