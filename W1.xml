@@ -1,44 +1,139 @@
 <?xml version="1.0" encoding="utf-8"?>
 <OverlayData>
 
-	<MarkerCategory name="echo" displayName="ECHO Raid Pack"></MarkerCategory>
+	<MarkerCategory name="echo" displayName="ECHO Raid Pack">
+
+		<MarkerCategory name="w1" displayName="Wing 1" ishidden="0">
+
+			<MarkerCategory name="run" displayName="Spirit Run">
+
+				<!-- Information Marker -->
+				<MarkerCategory name="om" displayName="Other markers" alpha="0.6" heightOffset="0.2" iconSize="0.8">
+					<MarkerCategory name="im" displayName="Information marker" iconFile="Data/Markers/information_marker.png" iconSize="1"/>
+				</MarkerCategory>
+
+				<!-- Portal Markers -->
+				<MarkerCategory name="pm" displayName="Portals" alpha="0.6" heightOffset="0.2" iconSize="0.8">
+					<MarkerCategory name="pe" displayName="Portal Entre" iconFile="Data/Markers/Portal_in.png"/>
+					<MarkerCategory name="pex" displayName="Portal Exeunt" iconFile="Data/Markers/Portal_out.png"/>
+				</MarkerCategory>
+
+				<!-- Wall Skip -->
+				<MarkerCategory name="jpwall" displayName="Wall skip" alpha="0.6" heightOffset="0.2" iconSize="0.8"  defaulttoggle="0">
+					<MarkerCategory name="lm" displayName="Location marker" iconFile="Data/Markers/location_marker.png"/>
+					<MarkerCategory name="tm" displayName="Target marker" iconFile="Data/Markers/target_marker.png"/>
+					<MarkerCategory name="lem" displayName="Leap marker" iconFile="Data/Markers/leap_marker.png"/>
+					<MarkerCategory name="trail" displayName="Trail" texture="Data/arrow.png" animSpeed="2" alpha="0.6"/>
+				</MarkerCategory>
+
+				
+
+			</MarkerCategory>
+
+
+			<MarkerCategory name="gorse" displayName="Gorseval">
+
+				<!-- Encounter Markers / Commander Markers -->
+				<MarkerCategory name="em" displayName="Encounter markers" alpha="0.8" iconSize="0.75" heightOffset="1">
+					<MarkerCategory name="1" displayName="Arrow" iconFile="Data/Markers/Commander_markers/arrow.png"/>
+					<MarkerCategory name="2" displayName="Circle" iconFile="Data/Markers/Commander_markers/circle.png"/>
+					<MarkerCategory name="3" displayName="Heart" iconFile="Data/Markers/Commander_markers/heart.png"/>
+					<MarkerCategory name="4" displayName="Square" iconFile="Data/Markers/Commander_markers/square.png"/>
+				</MarkerCategory>
+
+			</MarkerCategory>
+
+
+			<MarkerCategory name="sabpre" displayName="Sabetha Pre">
+
+				<!-- Portal Markers -->
+				<MarkerCategory name="pm" displayName="Portals" alpha="0.6" heightOffset="0.2" iconSize="0.8">
+					<MarkerCategory name="pe" displayName="Portal Entre" iconFile="Data/Markers/Portal_in.png"/>
+					<MarkerCategory name="pex" displayName="Portal Exeunt" iconFile="Data/Markers/Portal_out.png"/>
+				</MarkerCategory>
+
+				<MarkerCategory name="om" displayName="Other markers" alpha="0.6" heightOffset="0.2" iconSize="0.8">
+					<MarkerCategory name="im" displayName="Information marker" iconFile="Data/Markers/information_marker.png" iconSize="1"/>
+				</MarkerCategory>
+
+				<MarkerCategory name="blink" displayName="Blink Location" alpha="0.6" heightOffset="0.2" iconSize="0.8" defaulttoggle="0">
+					<MarkerCategory name="lm" displayName="Location marker" iconFile="Data/Markers/location_marker.png"/>
+					<MarkerCategory name="tm" displayName="Target marker"iconFile="Data/Markers/target_marker.png"/>
+				</MarkerCategory>
+
+			</MarkerCategory>
+
+
+			<MarkerCategory name="sab" displayName="Sabetha">
+
+				<!-- Direction Markers -->
+				<MarkerCategory name="nav" displayName="Direction" iconSize="0.6" alpha="0.75">
+					<MarkerCategory name="n" displayName="North" iconFile="Data/Markers/Letter_markers/n.png"/>
+					<MarkerCategory name="s" displayName="South" iconFile="Data/Markers/Letter_markers/s.png"/>
+					<MarkerCategory name="e" displayName="East" iconFile="Data/Markers/Letter_markers/e.png"/>
+					<MarkerCategory name="w" displayName="West" iconFile="Data/Markers/Letter_markers/w.png"/>
+				</MarkerCategory>
+
+			</MarkerCategory>
+
+		</MarkerCategory>
+
+	</MarkerCategory>
 
 	<POIs>
 
 		<!-- Spirit runs wall skip -->
-		<POI MapID="1062" xpos="-133.6778" ypos="68.29175" zpos="-422.7561" type="echo.w1.om.lm" GUID="q5Tkg88aikGl5/l+vmHjcg=="/>
-		<POI MapID="1062" xpos="-127.9239" ypos="68.66907" zpos="-419.8233" type="echo.w1.om.tm" GUID="BtQa8YasOUi9R0gwGmpMnQ=="/>
-		<POI MapID="1062" xpos="-126.0421" ypos="69.34098" zpos="-409.6961" type="echo.w1.om.tm" GUID="zDnPD5Fr1U2NNccDAtO2fQ=="/>
-		<POI MapID="1062" xpos="-128.9049" ypos="72.1349" zpos="-408.7073" type="echo.w1.om.lm" GUID="EybV1pUoTkmcObDEidlA5w=="/>
-		<POI MapID="1062" xpos="-104.09" ypos="67.74079" zpos="-414.1226" type="echo.w1.om.tm" GUID="7U5/OZcyP06OwIY+smds/Q=="/>
-		<POI MapID="1062" xpos="-103.0724" ypos="68.26795" zpos="-413.2947" type="echo.w1.om.lem" GUID="2+QYd3z8yEW2mNBrAt/5Ew==" info="You will have to use Mirage Sword 1 after a dodge or something like a Thief staff 5. Aim for the target"/>
-		<POI MapID="1062" xpos="-96.66387" ypos="70.94244" zpos="-403.251" type="echo.w1.om.tm" GUID="wP4GYTZJ/EiC46jnZGv6xw=="/>
-		<POI MapID="1062" xpos="-74.15808" ypos="77.25695" zpos="-434.4207" type="echo.w1.om.lm" GUID="vYx+K1XGTkmCm35VgnYtAA==" info="Somewhat tricky to jump - take your time"/>
-		<POI MapID="1062" xpos="-73.56417" ypos="79.30082" zpos="-435.0229" type="echo.w1.om.tm" GUID="lq42RnylnECKgv7e+KsCdw=="/>
-		<POI MapID="1062" xpos="-101.481" ypos="92.08644" zpos="-446.0786" type="echo.w1.om.lm" GUID="rz8Ff15GW0KH9a+pYI/wXw=="/>
-		<POI MapID="1062" xpos="-126.0502" ypos="85.65167" zpos="-427.4966" type="echo.w1.om.tm" GUID="k6SDaUz/CUCer8Y/FKRN+Q=="/>
-		<POI MapID="1062" xpos="-120.9685" ypos="90.39012" zpos="-427.6389" type="echo.w1.om.lm" GUID="mTuCRW2Ua02Qtc/lLfBehQ=="/>
-		<POI MapID="1062" xpos="-124.6152" ypos="91.06275" zpos="-422.4458" type="echo.w1.om.tm" GUID="n8w0R0ZcuEaAI7qI2ea11A==" info="You will glide under the ledge towards the group. &#xA;Make sure always lean forward. "/>
-		<POI MapID="1062" xpos="-117.2136" ypos="80.3201" zpos="-379.1671" type="echo.w1.om.tm" GUID="pmxsJqh8bU2a3PPvC8nWIQ=="/>
-		<POI MapID="1062" xpos="-145.9109" ypos="61.9902" zpos="-342.9952" type="echo.w1.om.tm" GUID="LUVGyzi5nkml9HACe1dphA=="/>
-		<POI MapID="1062" xpos="-144.9541" ypos="66.71403" zpos="-317.6626" type="echo.w1.om.lem" GUID="gHUOTBc/U0SMZXGZGMjcCA=="/>
-		<POI MapID="1062" xpos="-144.6981" ypos="65.61847" zpos="-298.469" type="echo.w1.om.tm" GUID="Lj8UjMS3tEix0mkr2HJRIw=="/>
-		<POI MapID="1062" xpos="-130.2097" ypos="59.64097" zpos="-268.5258" type="echo.w1.om.tm" GUID="/ZntsSAq80qSKneR9+HmxA=="/>
-		<POI MapID="1062" xpos="-108.8639" ypos="42.62286" zpos="-314.8376" type="echo.w1.pm.pe" GUID="RVOxK8AcKk6R9bIkPMW/Tw=="/>
-		<POI MapID="1062" xpos="-126.3135" ypos="60.62063" zpos="-261.0838" type="echo.w1.pm.pex" GUID="/pdn6K7T/EGS+GoxD5f+Ew=="/>
+		<!-- Toggle Marker -->
+		<POI MapID="1062" xpos="-128.5324" ypos="62.11548" zpos="-433.0308" type="echo.w1.run.om.im" GUID="lIyB9gn1+kuF+UhBakfQ/Q==" toggle="echo.w1.run.jpwall" info="Interact to get path for wall skip"/>
+		<!-- Wall skip -->
+		<POI MapID="1062" xpos="-133.6778" ypos="68.29175" zpos="-422.7561" type="echo.w1.run.jpwall.lm" GUID="q5Tkg88aikGl5/l+vmHjcg=="/>
+		<POI MapID="1062" xpos="-127.9239" ypos="68.66907" zpos="-419.8233" type="echo.w1.run.jpwall.tm" GUID="BtQa8YasOUi9R0gwGmpMnQ=="/>
+		<POI MapID="1062" xpos="-126.0421" ypos="69.34098" zpos="-409.6961" type="echo.w1.run.jpwall.tm" GUID="zDnPD5Fr1U2NNccDAtO2fQ=="/>
+		<POI MapID="1062" xpos="-128.9049" ypos="72.1349" zpos="-408.7073" type="echo.w1.run.jpwall.lm" GUID="EybV1pUoTkmcObDEidlA5w=="/>
+		<POI MapID="1062" xpos="-104.09" ypos="67.74079" zpos="-414.1226" type="echo.w1.run.jpwall.tm" GUID="7U5/OZcyP06OwIY+smds/Q=="/>
+		<POI MapID="1062" xpos="-103.0724" ypos="68.26795" zpos="-413.2947" type="echo.w1.run.jpwall.lem" GUID="2+QYd3z8yEW2mNBrAt/5Ew==" info="You will have to use Mirage Sword 1 after a dodge or something like a Thief staff 5. Aim for the target"/>
+		<POI MapID="1062" xpos="-96.66387" ypos="70.94244" zpos="-403.251" type="echo.w1.run.jpwall.tm" GUID="wP4GYTZJ/EiC46jnZGv6xw=="/>
+		<POI MapID="1062" xpos="-74.15808" ypos="77.25695" zpos="-434.4207" type="echo.w1.run.jpwall.lm" GUID="vYx+K1XGTkmCm35VgnYtAA==" info="Somewhat tricky to jump - take your time"/>
+		<POI MapID="1062" xpos="-73.56417" ypos="79.30082" zpos="-435.0229" type="echo.w1.run.jpwall.tm" GUID="lq42RnylnECKgv7e+KsCdw=="/>
+		<POI MapID="1062" xpos="-101.481" ypos="92.08644" zpos="-446.0786" type="echo.w1.run.jpwall.lm" GUID="rz8Ff15GW0KH9a+pYI/wXw=="/>
+		<POI MapID="1062" xpos="-126.0502" ypos="85.65167" zpos="-427.4966" type="echo.w1.run.jpwall.tm" GUID="k6SDaUz/CUCer8Y/FKRN+Q=="/>
+		<POI MapID="1062" xpos="-120.9685" ypos="90.39012" zpos="-427.6389" type="echo.w1.run.jpwall.lm" GUID="mTuCRW2Ua02Qtc/lLfBehQ=="/>
+		<POI MapID="1062" xpos="-124.6152" ypos="91.06275" zpos="-422.4458" type="echo.w1.run.jpwall.tm" GUID="n8w0R0ZcuEaAI7qI2ea11A==" info="You will glide under the ledge towards the group. &#xA;Make sure always lean forward. "/>
+		<POI MapID="1062" xpos="-117.2136" ypos="80.3201" zpos="-379.1671" type="echo.w1.run.jpwall.tm" GUID="pmxsJqh8bU2a3PPvC8nWIQ=="/>
+		<POI MapID="1062" xpos="-145.9109" ypos="61.9902" zpos="-342.9952" type="echo.w1.run.jpwall.tm" GUID="LUVGyzi5nkml9HACe1dphA=="/>
+		<POI MapID="1062" xpos="-144.9541" ypos="66.71403" zpos="-317.6626" type="echo.w1.run.jpwall.lem" GUID="gHUOTBc/U0SMZXGZGMjcCA=="/>
+		<POI MapID="1062" xpos="-144.6981" ypos="65.61847" zpos="-298.469" type="echo.w1.run.jpwall.tm" GUID="Lj8UjMS3tEix0mkr2HJRIw=="/>
+		<POI MapID="1062" xpos="-130.2097" ypos="59.64097" zpos="-268.5258" type="echo.w1.run.jpwall.tm" GUID="/ZntsSAq80qSKneR9+HmxA=="/>
+		<POI MapID="1062" xpos="-108.8639" ypos="42.62286" zpos="-314.8376" type="echo.w1.run.pm.pe" GUID="RVOxK8AcKk6R9bIkPMW/Tw=="/>
+		<POI MapID="1062" xpos="-126.3135" ypos="60.62063" zpos="-261.0838" type="echo.w1.run.pm.pex" GUID="/pdn6K7T/EGS+GoxD5f+Ew=="/>
+		<Trail type="echo.w1.run.jpwall.trail" trailData="Data/Trails/w1_run_wallskip.trl"/>
+
 
 
 		<!-- Gorseval -->
-		<POI MapID="1062" xpos="21.51448" ypos="50.20246" zpos="-92.92931" type="echo.w1.em.1" GUID="B9oT8nrlSU61z9cHW23Orw=="/>
-		<POI MapID="1062" xpos="63.37622" ypos="50.54105" zpos="-93.33667" type="echo.w1.em.2" GUID="nhnakyMpbEKcyH8AA7MOtw=="/>
-		<POI MapID="1062" xpos="62.94762" ypos="50.46142" zpos="-132.0458" type="echo.w1.em.3" GUID="xTxthuUoXUu4OLhx3tKrtw=="/>
-		<POI MapID="1062" xpos="21.94555" ypos="50.22355" zpos="-134.7969" type="echo.w1.em.4" GUID="bBGaoETG00WcWu5UIAw7sA=="/>
+		<POI MapID="1062" xpos="21.51448" ypos="50.20246" zpos="-92.92931" type="echo.w1.gorse.em.1" GUID="B9oT8nrlSU61z9cHW23Orw=="/>
+		<POI MapID="1062" xpos="63.37622" ypos="50.54105" zpos="-93.33667" type="echo.w1.gorse.em.2" GUID="nhnakyMpbEKcyH8AA7MOtw=="/>
+		<POI MapID="1062" xpos="62.94762" ypos="50.46142" zpos="-132.0458" type="echo.w1.gorse.em.3" GUID="xTxthuUoXUu4OLhx3tKrtw=="/>
+		<POI MapID="1062" xpos="21.94555" ypos="50.22355" zpos="-134.7969" type="echo.w1.gorse.em.4" GUID="bBGaoETG00WcWu5UIAw7sA=="/>
+
+
+
+		<!-- Sabetha Pre -->
+		<POI MapID="1062" xpos="13.04825" ypos="30.569" zpos="109.1822" type="echo.w1.sabpre.om.im" GUID="bTDnn5SGSEitJqYoRnf2Rg==" toggle="echo.w1.sabpre.blink"/>
+		<POI MapID="1062" xpos="14.09893" ypos="31.11337" zpos="102.7286" type="echo.w1.sabpre.blink.lm" GUID="cuXvchOoeEecfyoiDwceSA==" info="Place portal, blink from here to the platform above. At top you mimic + portal the group up. Once everyone is there place another portal and get over the gap and open another portal" inforange="10"/>
+		<POI MapID="1062" xpos="10.93385" ypos="48.95935" zpos="124.3191" type="echo.w1.sabpre.blink.tm" GUID="Jm/eLNSXrEe2R4nl++hTDg=="/>
+		<POI MapID="1062" xpos="16.32387" ypos="31.48796" zpos="97.38964" type="echo.w1.sabpre.pm.pe" GUID="HYY0e8WJy064S2qCZm8WFw=="/>
+		<POI MapID="1062" xpos="-6.619221" ypos="68.65047" zpos="198.4897" type="echo.w1.sabpre.pm.pex" GUID="mtBj5CFKLkyH11MRpxwGeQ=="/>
+		<POI MapID="1062" xpos="-11.34031" ypos="68.20521" zpos="201.1046" type="echo.w1.sabpre.pm.pe" GUID="pc9WaKyJhkeSLpkM/knhmQ=="/>
+		<POI MapID="1062" xpos="-48.52515" ypos="76.09281" zpos="150.1415" type="echo.w1.sabpre.pm.pex" GUID="NfWtBQU3yUCHuuvcljeetA=="/>
+
+
 
 		<!-- Sabetha -->
-		<POI MapID="1062" xpos="-126.6143" ypos="62.71625" zpos="116.0222" type="echo.w1.nav.n" GUID="2rxgroyy0E+d9skLWHR7Gg==" iconSize="1"/>
-		<POI MapID="1062" xpos="-132.9438" ypos="62.48758" zpos="51.89294" type="echo.w1.nav.s" GUID="cnLD/0hBq0ueQkoJ5Wkbow==" iconSize="1"/>
-		<POI MapID="1062" xpos="-97.53791" ypos="62.70077" zpos="80.94965" type="echo.w1.nav.e" GUID="ABLT/aAtbkSdsjLxpmezew==" iconSize="1"/>
-		<POI MapID="1062" xpos="-162.0545" ypos="61.79343" zpos="87.17853" type="echo.w1.nav.w" GUID="KxBaqpDRXEiotjWJUAF0jA==" iconSize="1"/>
+		<POI MapID="1062" xpos="-126.6143" ypos="62.71625" zpos="116.0222" type="echo.w1.sab.nav.n" GUID="2rxgroyy0E+d9skLWHR7Gg=="/>
+		<POI MapID="1062" xpos="-132.9438" ypos="62.48758" zpos="51.89294" type="echo.w1.sab.nav.s" GUID="cnLD/0hBq0ueQkoJ5Wkbow=="/>
+		<POI MapID="1062" xpos="-97.53791" ypos="62.70077" zpos="80.94965" type="echo.w1.sab.nav.e" GUID="ABLT/aAtbkSdsjLxpmezew=="/>
+		<POI MapID="1062" xpos="-162.0545" ypos="61.79343" zpos="87.17853" type="echo.w1.sab.nav.w" GUID="KxBaqpDRXEiotjWJUAF0jA=="/>
 
 	</POIs>
 

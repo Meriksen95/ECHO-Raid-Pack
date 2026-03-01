@@ -1,20 +1,54 @@
 <?xml version="1.0" encoding="utf-8"?>
 <OverlayData>
 
-	<MarkerCategory name="echo" displayName="ECHO Raid Pack"></MarkerCategory>
+	<MarkerCategory name="echo" displayName="ECHO Raid Pack">
+
+		<MarkerCategory name="w6" displayName="Wing 6" ishidden="0">
+
+			<MarkerCategory name="qa" displayName="Qadim">
+
+				<!-- Boon Markers -->
+				<MarkerCategory name="boon" displayName="Boon markers" alpha="0.8" heightOffset="1" iconSize="0.8">
+					<MarkerCategory name="stab" displayName="Stability" iconFile="Data/Markers/Boons/Stability.png"/>
+					<MarkerCategory name="prot" displayName="Protection" iconFile="Data/Markers/Boons/Protection.png"/>
+					<MarkerCategory name="res" displayName="Resolution" iconFile="Data/Markers/Boons/Resolution.png"/>
+				</MarkerCategory>
+
+				<!-- Portal Markers -->
+				<MarkerCategory name="pm" displayName="Portals" alpha="0.6" heightOffset="0.2" iconSize="0.8">
+					<MarkerCategory name="pe" displayName="Portal Entre" iconFile="Data/Markers/Portal_in.png"/>
+					<MarkerCategory name="pex" displayName="Portal Exeunt"  iconFile="Data/Markers/Portal_out.png"/>
+				</MarkerCategory>
+				
+				<!-- Other Markers -->
+				<MarkerCategory name="om" displayName="Other markers" alpha="0.6" heightOffset="0.2" iconSize="0.8">
+					<MarkerCategory name="im" displayName="Information marker"  iconFile="Data/Markers/information_marker.png" iconSize="1"/>
+					<MarkerCategory name="lm" displayName="Location marker"  iconFile="Data/Markers/location_marker.png"/>
+					<MarkerCategory name="tm" displayName="Target marker" iconFile="Data/Markers/target_marker.png"/>
+					<MarkerCategory name="lem" displayName="Leap marker"  iconFile="Data/Markers/leap_marker.png"/>
+					<MarkerCategory name="bm" displayName="Bugging marker"  iconFile="Data/Markers/bugging_marker.png"/>		
+					<MarkerCategory name="sm" displayName="Stealth marker"  iconFile="Data/Markers/stealth_marker.png"/>
+				</MarkerCategory>
+
+			</MarkerCategory>
+
+		</MarkerCategory>
+
+	</MarkerCategory>
 
 	<POIs>
 
+		<!-- Qadim -->
 		<!-- Qadim Pyre boons-->
-		<POI MapID="1303" xpos="-145.4107" ypos="120.1308" zpos="331.5365" type="echo.w6.boon.stab" GUID="cLXSyjKehk6Z7/nlISKjIg=="/>
-		<POI MapID="1303" xpos="-188.5022" ypos="120.1146" zpos="257.1821" type="echo.w6.boon.res" GUID="mZBjsGrO3ken/aOrS+5++Q=="/>
-		<POI MapID="1303" xpos="-231.9896" ypos="119.9184" zpos="331.7617" type="echo.w6.boon.prot" GUID="oD1Pv/2hKUuzS0tniiDWVg=="/>
+		<POI MapID="1303" xpos="-145.4107" ypos="120.1308" zpos="331.5365" type="echo.w6.qa.boon.stab" GUID="cLXSyjKehk6Z7/nlISKjIg=="/>
+		<POI MapID="1303" xpos="-188.5022" ypos="120.1146" zpos="257.1821" type="echo.w6.qa.boon.res" GUID="mZBjsGrO3ken/aOrS+5++Q=="/>
+		<POI MapID="1303" xpos="-231.9896" ypos="119.9184" zpos="331.7617" type="echo.w6.qa.boon.prot" GUID="oD1Pv/2hKUuzS0tniiDWVg=="/>
 
 		<!-- Qadim stack location -->
-		<POI MapID="1303" xpos="-164.9571" ypos="120.1764" zpos="295.6609" type="echo.w6.om.lm" GUID="qSvOKH764U2aBu+Lp7xxbQ=="/>
+		<POI MapID="1303" xpos="-164.9571" ypos="120.1764" zpos="295.6609" type="echo.w6.qa.om.lm" GUID="qSvOKH764U2aBu+Lp7xxbQ=="/>
 
 		<!-- Portal location -->
-		<POI MapID="1303" xpos="-185.0066" ypos="120.1684" zpos="293.4634" type="echo.w6.pm.pex" GUID="eVjcElk0e06kUQiUCvtw/g=="/>
+		<POI MapID="1303" xpos="-185.0066" ypos="120.1684" zpos="293.4634" type="echo.w6.qa.pm.pex" GUID="eVjcElk0e06kUQiUCvtw/g=="/>
 
 	</POIs>
 	

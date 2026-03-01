@@ -1,22 +1,73 @@
 <?xml version="1.0" encoding="utf-8"?>
 <OverlayData>
 
-	<MarkerCategory name="echo" displayName="ECHO Raid Pack"></MarkerCategory>
+	<MarkerCategory name="echo" displayName="ECHO Raid Pack">
+
+		<MarkerCategory name="w4" displayName="Wing 4" ishidden="0">
+
+			<MarkerCategory name="mopre" displayName="Mursaat Pre">
+
+				<!-- Portal Markers -->
+				<MarkerCategory name="pm" displayName="Portals" alpha="0.6" heightOffset="0.2" iconSize="0.8">
+					<MarkerCategory name="pe" displayName="Portal Entre" iconFile="Data/Markers/Portal_in.png"/>
+					<MarkerCategory name="pex" displayName="Portal Exeunt"  iconFile="Data/Markers/Portal_out.png"/>
+				</MarkerCategory>
+
+				<!-- Other Markers -->
+				<MarkerCategory name="om" displayName="Other markers" alpha="0.6" heightOffset="0.2" iconSize="0.8">
+					<MarkerCategory name="im" displayName="Information marker"  iconFile="Data/Markers/information_marker.png" iconSize="1"/>
+					<MarkerCategory name="lm" displayName="Location marker"  iconFile="Data/Markers/location_marker.png"/>
+					<MarkerCategory name="tm" displayName="Target marker" iconFile="Data/Markers/target_marker.png"/>
+					<MarkerCategory name="lem" displayName="Leap marker"  iconFile="Data/Markers/leap_marker.png"/>
+					<MarkerCategory name="bm" displayName="Bugging marker"  iconFile="Data/Markers/bugging_marker.png"/>		
+					<MarkerCategory name="sm" displayName="Stealth marker"  iconFile="Data/Markers/stealth_marker.png"/>
+				</MarkerCategory>
+
+				<!-- Other Markers -->
+				<MarkerCategory name="cs" displayName="Cliff skip" alpha="0.6" heightOffset="0.2" iconSize="0.8" defaulttoggle="0">
+					<MarkerCategory name="lm" displayName="Location marker"  iconFile="Data/Markers/location_marker.png"/>
+					<MarkerCategory name="tm" displayName="Target marker" iconFile="Data/Markers/target_marker.png"/>
+				</MarkerCategory>
+
+			</MarkerCategory>
+
+			<MarkerCategory name="dei" displayName="Deimos">
+
+				<!-- Direction Markers -->
+				<MarkerCategory name="nav" displayName="Direction" iconSize="0.6" alpha="0.75">
+					<MarkerCategory name="n" displayName="North" iconFile="Data/Markers/Letter_markers/n.png"/>
+					<MarkerCategory name="s" displayName="South" iconFile="Data/Markers/Letter_markers/s.png"/>
+					<MarkerCategory name="e" displayName="East" iconFile="Data/Markers/Letter_markers/e.png"/>
+					<MarkerCategory name="w" displayName="West" iconFile="Data/Markers/Letter_markers/w.png"/>
+				</MarkerCategory>
+
+			</MarkerCategory>
+
+		</MarkerCategory>
+
+	</MarkerCategory>
 
 	<POIs>
 
+		<!-- Mursaat Overseer Pre -->
 		<!-- Mursaat Overseer cliff portal -->
-		<POI MapID="1188" xpos="220.1681" ypos="21.18321" zpos="73.31831" type="echo.w4.pm.pe" GUID="mU5irJ4giUSEK87p1nhyrQ=="/>
-		<POI MapID="1188" xpos="170.8192" ypos="87.48589" zpos="77.79416" type="echo.w4.pm.pex" GUID="jIyTL9BxUE+tLI2WJiFnkg=="/>
+		<POI MapID="1188" xpos="220.1681" ypos="21.18321" zpos="73.31831" type="echo.w4.mopre.pm.pe" GUID="mU5irJ4giUSEK87p1nhyrQ=="/>
+		<POI MapID="1188" xpos="170.8192" ypos="87.48589" zpos="77.79416" type="echo.w4.mopre.pm.pex" GUID="jIyTL9BxUE+tLI2WJiFnkg=="/>
 		<!-- Blink -->
-		<POI MapID="1188" xpos="183.3292" ypos="41.45767" zpos="47.53797" type="echo.w4.om.lm" GUID="KxpEk4W6ZkemTXYOCVNh/Q=="/>
-		<POI MapID="1188" xpos="182.8369" ypos="70.75492" zpos="43.41604" type="echo.w4.om.tm" GUID="+Hqh59f3kU24qEh8HjoxnQ=="/>
+		<POI MapID="1188" xpos="221.3308" ypos="22.01639" zpos="78.05072" type="echo.w4.mopre.om.im" GUID="+MDImpH4w0icKGrtkPNHig==" toggle="echo.w4.mopre.cs" info="Interact to get blink locations."/>
+		<POI MapID="1188" xpos="183.3292" ypos="41.45767" zpos="47.53797" type="echo.w4.mopre.cs.lm" GUID="KxpEk4W6ZkemTXYOCVNh/Q=="/>
+		<POI MapID="1188" xpos="182.8369" ypos="70.75492" zpos="43.41604" type="echo.w4.mopre.cs.tm" GUID="+Hqh59f3kU24qEh8HjoxnQ=="/>
+		<!-- Door to shovel -->
+		<POI MapID="1188" xpos="74.55116" ypos="107.8251" zpos="167.634" type="echo.w4.mopre.pm.pex" GUID="vZIpKicVI0eYWJ3pssgdNw=="/>
+		<POI MapID="1188" xpos="-46.406" ypos="96.42278" zpos="188.6518" type="echo.w4.mopre.pm.pe" GUID="Mq3UprDHyESktCKRXAGU+Q=="/>
 		
-		 <!-- Deimos directions -->
-		<POI MapID="1188" xpos="-200.122" ypos="357.718" zpos="127.408" type="echo.w4.nav.n" GUID="weLrwIrcB0ejvOt/qVjYAQ==" iconSize="1.5"/>
-		<POI MapID="1188" xpos="-211.159" ypos="357.718" zpos="85.039" type="echo.w4.nav.s" GUID="7dqB8mdJE0OgPGrOxOelXA==" iconSize="1.5"/>
-		<POI MapID="1188" xpos="-184.3" ypos="357.718" zpos="100.426" type="echo.w4.nav.e" GUID="2IOrXhk+WUaN9mM5/lXk7w==" iconSize="1.5"/>
-		<POI MapID="1188" xpos="-227.283" ypos="357.718" zpos="112.708" type="echo.w4.nav.w" GUID="beyosKU210yZWC6S2YIh5w==" iconSize="1.5"/>
+		<!-- Deimos -->
+		<!-- Deimos directions -->
+		<POI MapID="1188" xpos="-200.122" ypos="357.718" zpos="127.408" type="echo.w4.dei.nav.n" GUID="weLrwIrcB0ejvOt/qVjYAQ=="/>
+		<POI MapID="1188" xpos="-211.159" ypos="357.718" zpos="85.039" type="echo.w4.dei.nav.s" GUID="7dqB8mdJE0OgPGrOxOelXA=="/>
+		<POI MapID="1188" xpos="-184.3" ypos="357.718" zpos="100.426" type="echo.w4.dei.nav.e" GUID="2IOrXhk+WUaN9mM5/lXk7w=="/>
+		<POI MapID="1188" xpos="-227.283" ypos="357.718" zpos="112.708" type="echo.w4.dei.nav.w" GUID="beyosKU210yZWC6S2YIh5w=="/>
+
 
 	</POIs>
 

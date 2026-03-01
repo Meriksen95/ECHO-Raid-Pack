@@ -11,6 +11,7 @@
 			<MarkerCategory name="sm" displayName="Stealth marker"  iconFile="Data/Markers/stealth_marker.png"/>
 			<MarkerCategory name="pe" displayName="Portal Entre" iconFile="Data/Markers/Portal_in.png"/>
 			<MarkerCategory name="pex" displayName="Portal Exeunt"  iconFile="Data/Markers/Portal_out.png"/>
+			<MarkerCategory name="trail" displayName="Trails" alpha="0.2"/>
 		</MarkerCategory>	
 	</MarkerCategory>
 

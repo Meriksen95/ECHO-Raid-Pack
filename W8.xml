@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <OverlayData>
 
-	<MarkerCategory name="echo" displayName="ECHO Raid Pack"></MarkerCategory>
+	<MarkerCategory name="echo" displayName="ECHO Raid Pack">
+
+		<MarkerCategory name="w8" displayName="Wing 8" ishidden="0">
+			
+
+
+		</MarkerCategory>
+
+	</MarkerCategory>
 
 	<POIs>
 
