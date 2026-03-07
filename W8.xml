@@ -3,7 +3,20 @@
 
 	<MarkerCategory name="echo" displayName="ECHO Raid Pack">
 
-		<MarkerCategory name="w8" displayName="Wing 8" ishidden="0">
+		<MarkerCategory name="task" displayName="Tasks" iconFile="data/Markers/task_marker.png" heightOffset="0.5" alpha="0.8" fadeNear="3500" fadeFar="4000" mapvisibility="0" minimapvisibility="0" script-filter="echoHideInCombat" defaulttoggle="0"/>
+
+		<MarkerCategory name="boundry" displayName="Boundries" texture="Data/redline.png" minimapvisibility="0" mapvisibility="0" fadeNear="500" fadeFar="700" script-filter="echoHideInCombat"/>
+
+		<MarkerCategory name="hit" displayName="Hitbox sizes" fadeNear="2000" fadeFar="2500" iconSize="2" cull="CounterClockwise" minimapvisibility="0" mapvisibility="0" script-filter="echoHideInCombat">
+			<MarkerCategory name="small" displayName="Small" iconFile="Data/Markers/Hitbox/hitbox_small.png"/>
+			<MarkerCategory name="medium" displayName="Medium" iconFile="Data/Markers/Hitbox/hitbox_medium.png"/>
+			<MarkerCategory name="large" displayName="Large" iconFile="Data/Markers/Hitbox/hitbox_large.png"/>
+			<MarkerCategory name="massive" displayName="Massive" iconFile="Data/Markers/Hitbox/hitbox_massive.png"/>
+		</MarkerCategory>
+
+
+
+		<MarkerCategory name="w8" displayName="Wing 8" ishidden="0" fadeNear="3500" fadeFar="4000" mapvisibility="0" minimapvisibility="0">
 			
 
 
@@ -12,6 +25,26 @@
 	</MarkerCategory>
 
 	<POIs>
+		<!-- Tanks -->
+		<POI MapID="1564" xpos="315.5617" ypos="77.61634" zpos="-255.2745" type="echo.task" GUID="V1v5UKJ6wUCKzgGn4e4okw=="
+		info="Feedbacks: Seb, Meri"/>
+
+		<POI MapID="1564" xpos="-289.7642" ypos="138.3893" zpos="269.2739" type="echo.task" GUID="ItXQWuiEyUS1EEYKn31U7A=="
+		info="Healkite: Seb
+		Arrows: Seb, Meri, Scientia, Plixo, ??"/>
+
+		<POI MapID="1564" xpos="171.6103" ypos="269.9936" zpos="224.9697" type="echo.task" GUID="FaNahcOJ9k+w2g2xZLuKCw=="
+		info="Geyser CC: Seb"/>
+
+		<!-- Boundries -->
+		<!-- Boundries -->
+		<Trail type="echo.boundry" trailData="Data/Boundries/w8_greer.trl"/>
+		<Trail type="echo.boundry" trailData="Data/Boundries/w8_decima.trl"/> 
+
+		<!-- Hitboxes -->
+		<POI MapID="1564" xpos="316.0696" ypos="79.243780" zpos="-262.0724" type="echo.hit.large" GUID="dcGI2+r5YHt7zRD2heiR0g==" rotate="90,0,64"/>
+		<POI MapID="1564" xpos="-270.6753" ypos="139.526800" zpos="253.4911" type="echo.hit.large" GUID="2nANNIbOqSFAdAZqXTwevA==" rotate="115,0,50"/>
+		<POI MapID="1564" xpos="208.1097" ypos="270.932800" zpos="326.4059" type="echo.hit.massive" GUID="BJqyBLS3mfupuT123d7Hbg==" rotate="100,0,75"/>
 
 
 	</POIs>

@@ -3,7 +3,20 @@
 
 	<MarkerCategory name="echo" displayName="ECHO Raid Pack">
 
-		<MarkerCategory name="w3" displayName="Wing 3" ishidden="0">
+		<MarkerCategory name="task" displayName="Tasks" iconFile="data/Markers/task_marker.png" heightOffset="0.5" alpha="0.8" fadeNear="3500" fadeFar="4000" mapvisibility="0" minimapvisibility="0" script-filter="echoHideInCombat" defaulttoggle="0"/>
+
+		<MarkerCategory name="boundry" displayName="Boundries" texture="Data/redline.png" minimapvisibility="0" mapvisibility="0" fadeNear="500" fadeFar="700" script-filter="echoHideInCombat"/>
+
+		<MarkerCategory name="hit" displayName="Hitbox sizes" fadeNear="2000" fadeFar="2500" iconSize="2" cull="CounterClockwise" minimapvisibility="0" mapvisibility="0" script-filter="echoHideInCombat">
+			<MarkerCategory name="small" displayName="Small" iconFile="Data/Markers/Hitbox/hitbox_small.png"/>
+			<MarkerCategory name="medium" displayName="Medium" iconFile="Data/Markers/Hitbox/hitbox_medium.png"/>
+			<MarkerCategory name="large" displayName="Large" iconFile="Data/Markers/Hitbox/hitbox_large.png"/>
+			<MarkerCategory name="massive" displayName="Massive" iconFile="Data/Markers/Hitbox/hitbox_massive.png"/>
+		</MarkerCategory>
+
+
+
+		<MarkerCategory name="w3" displayName="Wing 3" ishidden="0" fadeNear="3500" fadeFar="4000" mapvisibility="0" minimapvisibility="0">	
 
 			<MarkerCategory name="escort" displayName="Escort">
 
@@ -37,7 +50,7 @@
 
 			</MarkerCategory>
 
-
+			
 
 			<MarkerCategory name="kc" displayName="Keep Construct">
 
@@ -109,6 +122,38 @@
 
 	<POIs>
 
+		<!-- Tasks -->
+		<POI MapID="1156" xpos="216.7553" ypos="72.98641" zpos="556.9619" type="echo.task" GUID="mVqTYhPsWkqLM2FJY6srCg=="
+		info="Superspeed: Hartig
+		Glenna bugger: 
+		Thief skip: Summer
+		Herald stab: Scientia
+		Tower push: Meri, Seb
+		Wall portal: Meri"/>
+
+		<POI MapID="1156" xpos="-97.36108" ypos="141.4219" zpos="286.8446" type="echo.task" GUID="rHbcDlWY8UqqnLhz6JT8ow=="
+		info="tank & push: Seb"/>
+
+		<POI MapID="1156" xpos="-98.16053" ypos="151.084" zpos="198.1365" type="echo.task" GUID="+EICID29mU2bkMrCLy1EXQ=="
+		info="Mirage skips: Meri, Plixo
+		Fountain:
+		Skip:
+		Far:
+		Stairs:
+		Penta:"/>
+
+		<POI MapID="1156" xpos="-26.06507" ypos="521.007" zpos="3.728894" type="echo.task" GUID="0V6h8nTQsUez7VCZ/zSr3A=="
+		info="Tank: Seb"/>
+
+
+		<!-- Boundries -->
+		<Trail type="echo.boundry" trailData="Data/Boundries/w3_kc.trl"/> 
+
+		<!-- Hitbox sizes -->
+		<POI MapID="1156" xpos="-88.8541" ypos="145.247300" zpos="282.8778" type="echo.hit.large" GUID="yu9XNqQhAQLAau02XFjD8A==" rotate="90,0,90"/>
+		<POI MapID="1156" xpos="-36.9290" ypos="519.3" zpos="6.5934" type="echo.hit.small" GUID="W6KKmzGCCYxat/JzfwmauQ==" rotate="180,0,253"/>
+
+
 		<!-- Escort -->
 		<!-- Information markers -->
 		<POI MapID="1156" xpos="224.7128" ypos="74.90807" zpos="547.5108" type="echo.w3.escort.om.im" GUID="7Iag3S+Sl0iKMXjUjcppKA==" info="Interact to get Glenna bugging locations." toggle="echo.w3.escort.gbug"/>
@@ -174,7 +219,7 @@
 		<POI MapID="1156" xpos="-175.0139" ypos="118.0697" zpos="118.9108" type="echo.w3.tc.pm.pex" GUID="w3WxFslefkeBrYovfBf7eA=="/>
 
 		<!-- Group path -->
-		<POI MapID="1156" xpos="-89.487" ypos="141.7589" zpos="174.7394" type="echo.w3.tc.om.im" GUID="dmBzLZqAqkuVViDkPecgYQ==" info="Interact to get the common path for the group.&#xA;Specific routes for buttons can be found in the marker pack menu." toggle="echo.w3.tc.gp"/>
+		<POI MapID="1156" xpos="-89.32092" ypos="141.0767" zpos="170.1225" type="echo.w3.tc.om.im" GUID="dmBzLZqAqkuVViDkPecgYQ==" info="Interact to get the common path for the group.&#xA;Specific routes for buttons can be found in the marker pack menu." toggle="echo.w3.tc.gp"/>
 		<Trail type="echo.w3.tc.gp.pug" trailData="Data/Trails/w3_tc_pug.trl"/>
 		<Trail type="echo.w3.tc.gp.common" trailData="Data/Trails/w3_tc_common.trl"/>
 		<Trail type="echo.w3.tc.gp.1" trailData="Data/Trails/w3_tc_fountain.trl"/>

@@ -19,8 +19,10 @@ powershell -NoProfile -ExecutionPolicy Bypass ^
   "if (Test-Path '%PACK%.zip') { Remove-Item '%PACK%.zip' -Force };" ^
   "$items = @();" ^
   "if (Test-Path 'Data') { $items += (Resolve-Path 'Data').Path };" ^
+  "if (Test-Path 'Scripts') { $items += (Resolve-Path 'Scripts').Path };" ^
   "$items += Get-ChildItem -Filter '*.xml' -File | ForEach-Object { $_.FullName };" ^
-  "if ($items.Count -eq 0) { throw 'Ingen Data-mappe eller XML-filer fundet.' }" ^
+  "if (Test-Path 'pack.lua') { $items += (Resolve-Path 'pack.lua').Path };" ^
+  "if ($items.Count -eq 0) { throw 'Ingen filer eller mapper fundet.' };" ^
   "Compress-Archive -Path $items -DestinationPath '%PACK%.zip' -Force"
 
 if errorlevel 1 exit /b 1
@@ -33,3 +35,5 @@ move /Y "%PACK%.taco" "%DEST%\%PACK%.taco" >nul
 
 endlocal
 exit
+
+

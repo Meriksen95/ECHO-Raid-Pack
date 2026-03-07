@@ -2,8 +2,21 @@
 <OverlayData>
 
 	<MarkerCategory name="echo" displayName="ECHO Raid Pack">
+
+		<MarkerCategory name="task" displayName="Tasks" iconFile="data/Markers/task_marker.png" heightOffset="0.5" alpha="0.8" fadeNear="3500" fadeFar="4000" mapvisibility="0" minimapvisibility="0" script-filter="echoHideInCombat" defaulttoggle="0"/>
+
+		<MarkerCategory name="boundry" displayName="Boundries" texture="Data/redline.png" minimapvisibility="0" mapvisibility="0" fadeNear="500" fadeFar="700" script-filter="echoHideInCombat"/>
+
+		<MarkerCategory name="hit" displayName="Hitbox sizes" fadeNear="2000" fadeFar="2500" iconSize="2" cull="CounterClockwise" minimapvisibility="0" mapvisibility="0" script-filter="echoHideInCombat">
+			<MarkerCategory name="small" displayName="Small" iconFile="Data/Markers/Hitbox/hitbox_small.png"/>
+			<MarkerCategory name="medium" displayName="Medium" iconFile="Data/Markers/Hitbox/hitbox_medium.png"/>
+			<MarkerCategory name="large" displayName="Large" iconFile="Data/Markers/Hitbox/hitbox_large.png"/>
+			<MarkerCategory name="massive" displayName="Massive" iconFile="Data/Markers/Hitbox/hitbox_massive.png"/>
+		</MarkerCategory>
+
 		
-		<MarkerCategory name="w2" displayName="Wing 2" ishidden="0">
+		
+		<MarkerCategory name="w2" displayName="Wing 2" ishidden="0" fadeNear="3500" fadeFar="4000" mapvisibility="0" minimapvisibility="0">
 
 			<MarkerCategory name="slothpre" displayName="Slothasor Pre">
 
@@ -21,7 +34,8 @@
 			</MarkerCategory>
 
 
-			<MarkerCategory name="Sloth" displayName="Slothasor">
+
+			<MarkerCategory name="sloth" displayName="Slothasor">
 
 				<!--Number Markers -->
 				<MarkerCategory name="num" displayName="Shroom" iconSize="0.3" alpha="0.8" heightOffset="0.4" defaulttoggle="0" color="F54927">
@@ -36,6 +50,7 @@
 				</MarkerCategory>
 
 			</MarkerCategory>
+
 
 
 			<MarkerCategory name="trio" displayName="Bandit Trio">
@@ -53,6 +68,7 @@
 				</MarkerCategory>
 
 			</MarkerCategory>
+
 
 
 			<MarkerCategory name="matpre" displayName="Matthias Pre">
@@ -78,6 +94,7 @@
 			</MarkerCategory>
 			
 
+
 			<MarkerCategory name="mat" displayName="Matthias">
 
 				<!-- Encounter Markers / Commander Markers -->
@@ -96,10 +113,32 @@
 
 
 
-
-
-
 	<POIs>
+
+		<!-- Tasks -->
+		<POI MapID="1149" xpos="220.7686" ypos="9.842528" zpos="38.2649" type="echo.task" GUID="+IeejZpiekOz4nSf2lPBjg==" 
+		info="Shroom: xx"/>
+
+		<POI MapID="1149" xpos="106.559" ypos="70.90867" zpos="-105.836" type="echo.task" GUID="unquHYHBI0q0jPJxwlVBfA=="
+		info="Portal prep: Meri, Summer
+		Mortars: Plixo"/>
+
+		<POI MapID="1149" xpos="-155.2749" ypos="131.5231" zpos="112.041" type="echo.task" GUID="j+ZMVFhF5Em0kklqFhZURg=="
+		info="Feedback: Seb
+		Scourge portals: Scientia"/>
+
+
+
+		<!-- Boundries -->
+		<Trail type="echo.boundry" trailData="Data/Boundries/w2_matthias.trl"/> 
+
+
+
+		<!-- Hitbox sizes -->
+		<POI MapID="1149" xpos="196.2199" ypos="13.162020" zpos="44.9707" type="echo.hit.large" GUID="zQqoemkXty3hHymfE3963A==" rotate="90,0,274"/>
+		<POI MapID="1149" xpos="-162.1100" ypos="131" zpos="101.1271" type="echo.hit.medium" GUID="uhHGdzn2riYW/8cK8M8UMA==" rotate="90,0,275"/>
+
+
 
 		<!-- Sloth pre -->
 		<POI MapID="1149" xpos="225.9543" ypos="7.109398" zpos="209.9658" type="echo.w2.slothpre.om.sm" GUID="5hn6s4R0W0mtDfHEzeDWkg==" info="Continuum Split Mass invisbilty.&#xA;Place portal midways - mimic, blink and blink"/>

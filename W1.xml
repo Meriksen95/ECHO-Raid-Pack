@@ -3,7 +3,20 @@
 
 	<MarkerCategory name="echo" displayName="ECHO Raid Pack">
 
-		<MarkerCategory name="w1" displayName="Wing 1" ishidden="0">
+		<MarkerCategory name="task" displayName="Tasks" iconFile="data/Markers/task_marker.png" heightOffset="0.5" alpha="0.8" fadeNear="3500" fadeFar="4000" mapvisibility="0" minimapvisibility="0" script-filter="echoHideInCombat" defaulttoggle="0"/>
+
+		<MarkerCategory name="boundry" displayName="Boundries" texture="Data/redline.png" minimapvisibility="0" mapvisibility="0" fadeNear="500" fadeFar="700" script-filter="echoHideInCombat"/>
+
+		<MarkerCategory name="hit" displayName="Hitbox sizes" fadeNear="2000" fadeFar="2500" iconSize="2" cull="CounterClockwise" minimapvisibility="0" mapvisibility="0" script-filter="echoHideInCombat">
+			<MarkerCategory name="small" displayName="Small" iconFile="Data/Markers/Hitbox/hitbox_small.png"/>
+			<MarkerCategory name="medium" displayName="Medium" iconFile="Data/Markers/Hitbox/hitbox_medium.png"/>
+			<MarkerCategory name="large" displayName="Large" iconFile="Data/Markers/Hitbox/hitbox_large.png"/>
+			<MarkerCategory name="massive" displayName="Massive" iconFile="Data/Markers/Hitbox/hitbox_massive.png"/>
+		</MarkerCategory>
+
+		
+
+		<MarkerCategory name="w1" displayName="Wing 1" ishidden="0" fadeNear="3500" fadeFar="4000" mapvisibility="0" minimapvisibility="0">
 
 			<MarkerCategory name="run" displayName="Spirit Run">
 
@@ -26,9 +39,8 @@
 					<MarkerCategory name="trail" displayName="Trail" texture="Data/arrow.png" animSpeed="2" alpha="0.6"/>
 				</MarkerCategory>
 
-				
-
 			</MarkerCategory>
+
 
 
 			<MarkerCategory name="gorse" displayName="Gorseval">
@@ -58,7 +70,7 @@
 
 				<MarkerCategory name="blink" displayName="Blink Location" alpha="0.6" heightOffset="0.2" iconSize="0.8" defaulttoggle="0">
 					<MarkerCategory name="lm" displayName="Location marker" iconFile="Data/Markers/location_marker.png"/>
-					<MarkerCategory name="tm" displayName="Target marker"iconFile="Data/Markers/target_marker.png"/>
+					<MarkerCategory name="tm" displayName="Target marker" iconFile="Data/Markers/target_marker.png"/>
 				</MarkerCategory>
 
 			</MarkerCategory>
@@ -81,6 +93,38 @@
 	</MarkerCategory>
 
 	<POIs>
+
+		<!-- Task -->
+		<POI MapID="1062" xpos="-116.3965" ypos="59.05423" zpos="-572.7441" type="echo.task" GUID="nk2W7b8A0kGdbAsu600KqA==" 
+		info="Blue guardian: Meri, Plixo, August
+		Green guardian: Scientia, xx, zz
+		Red guardian: Summer, Hartig, yy"/>
+
+		<POI MapID="1062" xpos="-49.04148" ypos="51.07375" zpos="-106.2292" type="echo.task" GUID="hAanHYj5C0GO4y2o9QrHBQ==" 
+		info="Arrow: Seb, Plixo, Summer
+		Circle: Meri, Scientia, Hartig
+		Heart: XX, YY
+		Square: August, ZZ"/>
+
+		<POI MapID="1062" xpos="-78.73164" ypos="71.74322" zpos="141.5822" type="echo.task" GUID="Ycex21yOJEKnanfVeC1yEw=="
+		info="Kite: Sab
+		Canon: Meri"/>
+
+
+
+
+		<!-- Hitbox sizes -->
+		<POI MapID="1062" xpos="-127.3181" ypos="52.749910" zpos="-825" type="echo.hit.medium" GUID="fDTVRCOE4psMztFPThyGDw==" rotate="90,0,179"/>
+		<POI MapID="1062" xpos="-62.2936" ypos="55.071870" zpos="-127.3947" type="echo.hit.medium" GUID="ZbdrXXB+tBgJsf9mTK6S2A==" rotate="90,0,95"/>
+		<POI MapID="1062" xpos="-58.8888" ypos="74.738420" zpos="135.1690" type="echo.hit.small" GUID="oT8YUHeofO66oWGyy/Qw6Q==" rotate="115,0,61"/>
+
+
+
+		<!-- Boundries -->
+		<Trail type="echo.boundry" trailData="Data/Boundries/w1_vg.trl"/> 
+		<Trail type="echo.boundry" trailData="Data/Boundries/w1_gorseval.trl"/> 
+		<Trail type="echo.boundry" trailData="Data/Boundries/w1_sabetha.trl"/> 
+
 
 		<!-- Spirit runs wall skip -->
 		<!-- Toggle Marker -->

@@ -3,12 +3,49 @@
 
 	<MarkerCategory name="echo" displayName="ECHO Raid Pack">
 
-		<MarkerCategory name="w5" displayName="Wing 5" ishidden="0">
+		<MarkerCategory name="task" displayName="Tasks" iconFile="data/Markers/task_marker.png" heightOffset="0.5" alpha="0.8" fadeNear="3500" fadeFar="4000" mapvisibility="0" minimapvisibility="0" script-filter="echoHideInCombat" defaulttoggle="0"/>
+
+		<MarkerCategory name="boundry" displayName="Boundries" texture="Data/redline.png" minimapvisibility="0" mapvisibility="0" fadeNear="500" fadeFar="700" script-filter="echoHideInCombat"/>
+
+		<MarkerCategory name="hit" displayName="Hitbox sizes" fadeNear="2000" fadeFar="2500" iconSize="2" cull="CounterClockwise" minimapvisibility="0" mapvisibility="0" script-filter="echoHideInCombat">
+			<MarkerCategory name="small" displayName="Small" iconFile="Data/Markers/Hitbox/hitbox_small.png"/>
+			<MarkerCategory name="medium" displayName="Medium" iconFile="Data/Markers/Hitbox/hitbox_medium.png"/>
+			<MarkerCategory name="large" displayName="Large" iconFile="Data/Markers/Hitbox/hitbox_large.png"/>
+			<MarkerCategory name="massive" displayName="Massive" iconFile="Data/Markers/Hitbox/hitbox_massive.png"/>
+		</MarkerCategory>
+
+
+
+		<MarkerCategory name="w5" displayName="Wing 5" ishidden="0" fadeNear="3500" fadeFar="4000" mapvisibility="0" minimapvisibility="0">
+
+			<MarkerCategory name="river" displayName="River of Souls" heightoffset="0" iconsize="1.5" minimapvisibility="1" mapvisibility="1">
+				<MarkerCategory name="eno" displayName="Enovators" iconFile="Data/Markers/spawn_purple.png"/>
+				<MarkerCategory name="bomb" displayName="Bombers" iconFile="Data/Markers/spawn_red.png"/>
+			</MarkerCategory>
+
+
+
+			<MarkerCategory name="stat" displayName="Statues of Gwenth">
+
+				<MarkerCategory name="em" displayName="Encounter markers" alpha="0.8" iconSize="0.75" heightOffset="2">
+					<MarkerCategory name="1" displayName="Arrow" iconFile="Data/Markers/Commander_markers/arrow.png"/>
+					<MarkerCategory name="2" displayName="Circle" iconFile="Data/Markers/Commander_markers/circle.png"/>
+					<MarkerCategory name="3" displayName="Heart" iconFile="Data/Markers/Commander_markers/heart.png"/>
+					<MarkerCategory name="4" displayName="Square" iconFile="Data/Markers/Commander_markers/square.png"/>
+					<MarkerCategory name="5" displayName="Star" iconFile="Data/Markers/Commander_markers/star.png"/>
+					<MarkerCategory name="6" displayName="Swirl" iconFile="Data/Markers/Commander_markers/swirl.png"/>
+					<MarkerCategory name="7" displayName="Triangle" iconFile="Data/Markers/Commander_markers/triangle.png"/>
+					<MarkerCategory name="8" displayName="Cross" iconFile="Data/Markers/Commander_markers/cross.png"/>
+				</MarkerCategory>
+
+			</MarkerCategory>
+
+	
 
 			<MarkerCategory name="dhu" displayName="Dhuum">
 
 				<!-- Encounter Markers / Commander Markers -->
-				<MarkerCategory name="em" displayName="Encounter markers" alpha="0.8" iconSize="0.75" heightOffset="1">
+				<MarkerCategory name="em" displayName="Encounter markers" iconSize="0.75" heightOffset="1">
 					<MarkerCategory name="1" displayName="Arrow" iconFile="Data/Markers/Commander_markers/arrow.png"/>
 					<MarkerCategory name="2" displayName="Circle" iconFile="Data/Markers/Commander_markers/circle.png"/>
 					<MarkerCategory name="3" displayName="Heart" iconFile="Data/Markers/Commander_markers/heart.png"/>
@@ -25,6 +62,63 @@
 	</MarkerCategory>
 
 	<POIs>
+		<!-- Tasks -->
+		<POI MapID="1264" xpos="-324.9568" ypos="40.36828" zpos="-1.311413" type="echo.task" GUID="XUZ/Qnxc7Ue2l96Uj+jM+w=="
+		info="Heals: Meri, Seb
+		Push: Seb
+		Epidemic: Scientia"/>
+
+		<POI MapID="1264" xpos="-232.826" ypos="20.6783" zpos="25.49973" type="echo.task" GUID="3P08Tf0uHUefF5zb95xCNQ=="
+		info="Superspeed: Hartig"/>
+
+		<POI MapID="1264" xpos="350.4705" ypos="159.6567" zpos="27.27109" type="echo.task" GUID="XTyJ9UBbYkmlBgwgrB23vg=="
+		info="Green 1:
+		Kite/G2: Seb
+		Cele tank: Scientia"/>
+
+
+		<!-- Hitboxes -->
+		<POI MapID="1264" xpos="-337.8037" ypos="42.311550" zpos="-3.3436" type="echo.hit.large" GUID="ax6XR5YgvAqDHwnAbXwjFQ==" rotate="90,0,121"/>
+		<POI MapID="1264" xpos="163.9678" ypos="114.543000" zpos="211.0227" type="echo.hit.medium" GUID="QMyv8fzVCllP0KzDpjNYqg==" rotate="90,0,118"/>
+		<POI MapID="1264" xpos="98.5155" ypos="98.455640" zpos="-159.4452" type="echo.hit.large" GUID="Bkvj9w7i0Ow6JqWLYT+8GQ==" rotate="180,0,332"/>
+		<POI MapID="1264" xpos="402.2993" ypos="98.851010" zpos="2.2935" type="echo.hit.small" GUID="dGi8F5RgkBwIh5pCgiOfuw==" rotate="90,0,352"/>
+		<POI MapID="1264" xpos="347.4334" ypos="160.696200" zpos="31.2219" type="echo.hit.large" GUID="0zgDMuEQNi5btrmM2O8qng==" rotate="90,0,182"/>
+
+
+		<!-- River -->
+		<!-- Enovators -->
+		<POI MapID="1264" xpos="-144.2593" ypos="40.30405" zpos="25.82123" type="echo.w5.river.eno" GUID="9aJzYMhA7UGKB3wG5Af+EQ=="/>
+		<POI MapID="1264" xpos="-64.31232" ypos="53.62572" zpos="24.9419" type="echo.w5.river.eno" GUID="ZglktjG3TUSjS7j0Ci0vDw=="/>
+		<POI MapID="1264" xpos="23.13524" ypos="48.7789" zpos="-102.0221" type="echo.w5.river.eno" GUID="8oBmul+7FkOCD10ljY+waw=="/>
+		<POI MapID="1264" xpos="90.23708" ypos="88.98886" zpos="-69.88004" type="echo.w5.river.eno" GUID="UwEN9N6fx0SikC1yjG5onA=="/>
+		<POI MapID="1264" xpos="103.1237" ypos="119.4433" zpos="-2.581252" type="echo.w5.river.eno" GUID="5ekpNKUDtEya1+vRTjlxMQ=="/>
+
+		<!-- Bombers -->
+		<POI MapID="1264" xpos="-164.0709" ypos="32.98349" zpos="12.79771" type="echo.w5.river.bomb" GUID="/dO0HFkYL0ewZz/IpkGhYg=="/>
+		<POI MapID="1264" xpos="-89.31469" ypos="50.71683" zpos="22.19902" type="echo.w5.river.bomb" GUID="131MScdkh0KWjIWGRT45TA=="/>
+		<POI MapID="1264" xpos="-84.42048" ypos="51.96835" zpos="40.28159" type="echo.w5.river.bomb" GUID="GFb1Z2FQQ0mj0MB8Sh0O6Q=="/>
+		<POI MapID="1264" xpos="-57.1022" ypos="53.62994" zpos="18.50489" type="echo.w5.river.bomb" GUID="dhE7/1+FKk22+cl7Usqhyg=="/>
+		<POI MapID="1264" xpos="4.993094" ypos="41.07816" zpos="-109.0878" type="echo.w5.river.bomb" GUID="9KmAcmlwiUG+e1VV0G9M2A=="/>
+		<POI MapID="1264" xpos="27.42378" ypos="53.09232" zpos="-113.0823" type="echo.w5.river.bomb" GUID="Jg2ZhpN27keM+/67vwCy9A=="/>
+		<POI MapID="1264" xpos="70.12768" ypos="76.70673" zpos="-101.2036" type="echo.w5.river.bomb" GUID="kw2BiBYaqEikQOOl5ecmPw=="/>
+		<POI MapID="1264" xpos="61.58484" ypos="75.64536" zpos="-84.86723" type="echo.w5.river.bomb" GUID="72Jbu4Y7Rkie5mJ64K22ew=="/>
+		<POI MapID="1264" xpos="82.57346" ypos="91.34612" zpos="-54.15087" type="echo.w5.river.bomb" GUID="GFao3ghbyU+hiaY85uVG5Q=="/>
+		<POI MapID="1264" xpos="96.38012" ypos="97.58306" zpos="-48.47976" type="echo.w5.river.bomb" GUID="R2shVW9We02pRONn7CYWbA=="/>
+
+
+
+
+		<!-- Ice king -->
+		<POI MapID="1264" xpos="137.9257" ypos="111.225200" zpos="205.6288" type="echo.w5.stat.em.1" GUID="MRivGrgdVWA60LnNYGqCrA=="/>
+		<POI MapID="1264" xpos="132.0678" ypos="111.225200" zpos="219.7709" type="echo.w5.stat.em.2" GUID="yyCZfjyTudEl4dS173SPew=="/>
+		<POI MapID="1264" xpos="117.9257" ypos="111.225200" zpos="225.6288" type="echo.w5.stat.em.3" GUID="G1521MEE4AvEPSxSF/TRjQ=="/>
+		<POI MapID="1264" xpos="103.7836" ypos="111.225200" zpos="219.7709" type="echo.w5.stat.em.4" GUID="NBxsO9vL/6vO+PxqT1d3bQ=="/>
+		<POI MapID="1264" xpos="97.9257" ypos="111.225200" zpos="205.6288" type="echo.w5.stat.em.5" GUID="WENlIufbs/0icyNcBuVpcA=="/>
+		<POI MapID="1264" xpos="103.7836" ypos="111.225200" zpos="191.4867" type="echo.w5.stat.em.6" GUID="aUa1sGpk0/wXKwZOLBc8YA=="/>
+		<POI MapID="1264" xpos="117.9257" ypos="111.225200" zpos="185.6288" type="echo.w5.stat.em.7" GUID="DN4vwctcPr1MaG3cXlLOUg=="/>
+		<POI MapID="1264" xpos="132.0678" ypos="111.225200" zpos="191.4867" type="echo.w5.stat.em.8" GUID="Z6Ag9HUsr3JPL71tUjLIlA=="/>		
+
+
 
 		<!-- Dhuum -->
 		<POI MapID="1264" xpos="428.9981" ypos="157.8671" zpos="30.76633" type="echo.w5.dhu.em.1" GUID="Qx5pJpDqnUKsEO2pR0Ihbg=="/>
@@ -34,6 +128,7 @@
 		<POI MapID="1264" xpos="365.9293" ypos="157.8867" zpos="19.37017" type="echo.w5.dhu.em.5" GUID="4Zw6aESXgkKShlb/h3a15A=="/>
 		<POI MapID="1264" xpos="379.0498" ypos="157.8604" zpos="44.93124" type="echo.w5.dhu.em.6" GUID="MB7zNrBJ7kei/gYv9a9/0w=="/>
 		<POI MapID="1264" xpos="407.7202" ypos="157.864" zpos="49.83854" type="echo.w5.dhu.em.7" GUID="l2sF1yTB5UKOEPKXUKSszQ=="/>
+
 
 	</POIs>
 

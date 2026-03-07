@@ -3,7 +3,20 @@
 
 	<MarkerCategory name="echo" displayName="ECHO Raid Pack">
 
-		<MarkerCategory name="w7" displayName="Wing 7" ishidden="0">
+		<MarkerCategory name="task" displayName="Tasks" iconFile="data/Markers/task_marker.png" heightOffset="0.5" alpha="0.8" fadeNear="3500" fadeFar="4000" mapvisibility="0" minimapvisibility="0" script-filter="echoHideInCombat" defaulttoggle="0"/>
+
+		<MarkerCategory name="boundry" displayName="Boundries" texture="Data/redline.png" minimapvisibility="0" mapvisibility="0" fadeNear="500" fadeFar="700" script-filter="echoHideInCombat"/>
+
+		<MarkerCategory name="hit" displayName="Hitbox sizes" fadeNear="2000" fadeFar="2500" iconSize="2" cull="CounterClockwise" minimapvisibility="0" mapvisibility="0" script-filter="echoHideInCombat">
+			<MarkerCategory name="small" displayName="Small" iconFile="Data/Markers/Hitbox/hitbox_small.png"/>
+			<MarkerCategory name="medium" displayName="Medium" iconFile="Data/Markers/Hitbox/hitbox_medium.png"/>
+			<MarkerCategory name="large" displayName="Large" iconFile="Data/Markers/Hitbox/hitbox_large.png"/>
+			<MarkerCategory name="massive" displayName="Massive" iconFile="Data/Markers/Hitbox/hitbox_massive.png"/>
+		</MarkerCategory>
+
+
+
+		<MarkerCategory name="w7" displayName="Wing 7" ishidden="0" fadeNear="3500" fadeFar="4000" mapvisibility="0" minimapvisibility="0">
 
 			<MarkerCategory name="sa" displayName="Sabir">
 
@@ -18,7 +31,7 @@
 			<MarkerCategory name="qtp" displayName="Qadim the Peerless">
 
 				<!--Number Markers -->
-				<MarkerCategory name="num" displayName="Numbers" iconSize="0.5" alpha="0.75">
+				<MarkerCategory name="num" displayName="Numbers" iconSize="0.5" alpha="0.75" minimapvisibility="1" mapvisibility="1">
 					<MarkerCategory name="1" displayName="1"  iconFile="Data/Markers/Numbers/1.png"/>
 					<MarkerCategory name="2" displayName="2"  iconFile="Data/Markers/Numbers/2.png"/>
 				</MarkerCategory>
@@ -30,6 +43,34 @@
 	</MarkerCategory>
 
 	<POIs>
+		<!-- Tasks -->
+		<POI MapID="1323" xpos="376.1827" ypos="6.355763" zpos="-66.98862" type="echo.task" GUID="2BLf4ksi/UGj2RL55wKMEg=="
+		info="Pillars: Plixo, Summer, Scienta, Meri, xx
+		North: Meri, Sciena, Hartig, August, zz
+		South: Seb, Plixo, Summer, xx, yy"/>
+
+		<POI MapID="1323" xpos="-314.6701" ypos="57.74328" zpos="92.02596" type="echo.task" GUID="VTJcSGsLg0WoUT3MD5ILYg=="
+		info="Feedback: Seb
+		Portals: Seb"/>
+
+		<POI MapID="1323" xpos="25.34361" ypos="16.76319" zpos="180.2995" type="echo.task" GUID="aGR+kM2+UUiWKf92NWVH3Q=="
+		info="Tank: Seb
+		Pylons: Meri, Scientia, Summer
+		Anomoly CC'er: Seb"/>
+
+
+
+
+		<!-- Boundries -->
+		<Trail type="echo.boundry" trailData="Data/Boundries/w7_adina.trl"/>
+		<Trail type="echo.boundry" trailData="Data/Boundries/w7_sabir.trl"/>
+		<Trail type="echo.boundry" trailData="Data/Boundries/w7_qtp.trl"/>
+
+		<!-- Hitboxes -->
+		<POI MapID="1323" xpos="376.2415" ypos="4.114979" zpos="-72.8753" type="echo.hit.medium" GUID="HTOYO+hQ0uSKWmcxEEI1rQ==" rotate="180,0,181"/>
+		<POI MapID="1323" xpos="-251.6688" ypos="13.00200" zpos="34.8050" type="echo.hit.medium" GUID="w6BA41U5oavg4ydnfbvkEA==" rotate="175,0,269"/>
+		<POI MapID="1323" xpos="25.3089" ypos="13.362050" zpos="177.6039" type="echo.hit.large" GUID="FnH3PDpd5YR6Cj/XvlRxZQ==" rotate="115,0,180"/>
+
 
 		<!-- Sabir -->
 		<!-- Portal 1 -->

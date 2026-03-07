@@ -3,7 +3,20 @@
 
 	<MarkerCategory name="echo" displayName="ECHO Raid Pack">
 
-		<MarkerCategory name="w6" displayName="Wing 6" ishidden="0">
+		<MarkerCategory name="task" displayName="Tasks" iconFile="data/Markers/task_marker.png" heightOffset="0.5" alpha="0.8" fadeNear="3500" fadeFar="4000" mapvisibility="0" minimapvisibility="0" script-filter="echoHideInCombat" defaulttoggle="0"/>
+
+		<MarkerCategory name="boundry" displayName="Boundries" texture="Data/redline.png" minimapvisibility="0" mapvisibility="0" fadeNear="500" fadeFar="700" script-filter="echoHideInCombat"/>
+
+		<MarkerCategory name="hit" displayName="Hitbox sizes" fadeNear="2000" fadeFar="2500" iconSize="2" cull="CounterClockwise" minimapvisibility="0" mapvisibility="0" script-filter="echoHideInCombat">
+			<MarkerCategory name="small" displayName="Small" iconFile="Data/Markers/Hitbox/hitbox_small.png"/>
+			<MarkerCategory name="medium" displayName="Medium" iconFile="Data/Markers/Hitbox/hitbox_medium.png"/>
+			<MarkerCategory name="large" displayName="Large" iconFile="Data/Markers/Hitbox/hitbox_large.png"/>
+			<MarkerCategory name="massive" displayName="Massive" iconFile="Data/Markers/Hitbox/hitbox_massive.png"/>
+		</MarkerCategory>
+
+
+
+		<MarkerCategory name="w6" displayName="Wing 6" ishidden="0" fadeNear="3500" fadeFar="4000" mapvisibility="0" minimapvisibility="0">
 
 			<MarkerCategory name="qa" displayName="Qadim">
 
@@ -37,6 +50,36 @@
 	</MarkerCategory>
 
 	<POIs>
+		<!-- Tasks -->
+		<POI MapID="1303" xpos="-124.5728" ypos="52.41407" zpos="-334.89" type="echo.task" GUID="TCbk8yne2ESfB0vJY66mPQ=="
+		info="Heal: Seb
+		Sword collector: Scientia
+		Shield collector: Seb"/>
+
+		<POI MapID="1303" xpos="362.4089" ypos="38.04086" zpos="-159.9969" type="echo.task" GUID="xIpBU1s+FkSkFDpv9wnIgg=="
+		info="Heal: Seb
+		Left side: No heal sub
+		Right side: Heal sub"/>
+
+		<POI MapID="1303" xpos="-151.5992" ypos="120.1684" zpos="292.2431" type="echo.task" GUID="w8MlgFed1ESDTF/aG66cOw=="
+		info="Tank: Seb
+		Kite: Summer
+		Off-tank: Meri
+		Lamp 1: 
+		Lamp 2: 
+		Lamp 3: , , Plixo"/>
+
+
+
+		<!-- Boundries -->
+		<Trail type="echo.boundry" trailData="Data/Boundries/w6_ca.trl"/>
+		<Trail type="echo.boundry" trailData="Data/Boundries/w6_qadim.trl"/>
+
+		<!-- Hitboxes -->
+		<POI MapID="1303" xpos="-126.5392" ypos="48.866110" zpos="-330.7609" type="echo.hit.large" GUID="h7iGaAdTr3fVP49t4kDRiQ==" rotate="90,0,98"/>
+		<POI MapID="1303" xpos="366.9720" ypos="36.539970" zpos="-193.6142" type="echo.hit.small" GUID="0HqfmV2ou/lsp0y+Qfgtzg==" rotate="180,0,179"/>
+
+
 
 		<!-- Qadim -->
 		<!-- Qadim Pyre boons-->

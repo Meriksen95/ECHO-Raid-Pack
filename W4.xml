@@ -3,7 +3,20 @@
 
 	<MarkerCategory name="echo" displayName="ECHO Raid Pack">
 
-		<MarkerCategory name="w4" displayName="Wing 4" ishidden="0">
+		<MarkerCategory name="task" displayName="Tasks" iconFile="data/Markers/task_marker.png" heightOffset="0.5" alpha="0.8" fadeNear="3500" fadeFar="4000" mapvisibility="0" minimapvisibility="0" script-filter="echoHideInCombat" defaulttoggle="0"/>
+
+		<MarkerCategory name="boundry" displayName="Boundries" texture="Data/redline.png" minimapvisibility="0" mapvisibility="0" fadeNear="500" fadeFar="700" script-filter="echoHideInCombat"/>
+
+		<MarkerCategory name="hit" displayName="Hitbox sizes" fadeNear="2000" fadeFar="2500" iconSize="2" cull="CounterClockwise" minimapvisibility="0" mapvisibility="0" script-filter="echoHideInCombat">
+			<MarkerCategory name="small" displayName="Small" iconFile="Data/Markers/Hitbox/hitbox_small.png"/>
+			<MarkerCategory name="medium" displayName="Medium" iconFile="Data/Markers/Hitbox/hitbox_medium.png"/>
+			<MarkerCategory name="large" displayName="Large" iconFile="Data/Markers/Hitbox/hitbox_large.png"/>
+			<MarkerCategory name="massive" displayName="Massive" iconFile="Data/Markers/Hitbox/hitbox_massive.png"/>
+		</MarkerCategory>
+
+
+
+		<MarkerCategory name="w4" displayName="Wing 4" ishidden="0" fadeNear="3500" fadeFar="4000" mapvisibility="0" minimapvisibility="0">
 
 			<MarkerCategory name="mopre" displayName="Mursaat Pre">
 
@@ -48,6 +61,40 @@
 	</MarkerCategory>
 
 	<POIs>
+		<!-- Tasks -->
+		<POI MapID="1188" xpos="440.1132" ypos="49.38026" zpos="40.92268" type="echo.task" GUID="iJPBq3/kykCVpQ4waVWBXw==" 
+		info="Stability: Meri, Seb"/>
+
+		<POI MapID="1188" xpos="85.58217" ypos="105.3702" zpos="135.1042" type="echo.task" GUID="gn5F4l6k7EeNj8/mtooBkw=="
+		info="Claim: Seb
+		Dispel:
+		Protect: Meri"/>
+
+		<POI MapID="1188" xpos="-53.97613" ypos="129.6734" zpos="83.50597" type="echo.task" GUID="a9JmW4pJ9U2fbyfZ1wS/bg=="
+		info="Tanks: 
+		Push: Seb"/>
+
+		<POI MapID="1188" xpos="-203.5466" ypos="101.9231" zpos="101.6522" type="echo.task" GUID="YUjRawlxe0mjXizRvhj8xA=="
+		info="Tank: Seb
+		Boon handkite: Meri
+		Black kite: 
+		North:
+		South:
+		East:
+		West:"/>
+
+
+
+		<!-- Boundries -->
+		<Trail type="echo.boundry" trailData="Data/Boundries/w4_samarog.trl"/>
+		<Trail type="echo.boundry" trailData="Data/Boundries/w4_deimos.trl"/>
+
+		<!-- Hitboxes -->
+		<POI MapID="1188" xpos="458.1891" ypos="56.156190" zpos="26.4435" type="echo.hit.large" GUID="f6btxwU1tuHcN8fnTgNoUg==" rotate="90,0,326"/>
+		<POI MapID="1188" xpos="85.7381" ypos="106.259600" zpos="143.1022" type="echo.hit.medium" GUID="ckt1qSMSZLUCGXC0LoYFNg==" rotate="90,0,273"/>
+		<POI MapID="1188" xpos="-20.1984" ypos="123.657200" zpos="73.7123" type="echo.hit.large" GUID="s7s68wXERHjYQc8VXS+BXQ==" rotate="90,0,279"/>
+		<POI MapID="1188" xpos="-135.9021" ypos="131.640700" zpos="144.6656" type="echo.hit.medium" GUID="hpGEdT4mpUZqwrFvoSmynA==" rotate="90,0,269"/>
+
 
 		<!-- Mursaat Overseer Pre -->
 		<!-- Mursaat Overseer cliff portal -->
@@ -60,6 +107,8 @@
 		<!-- Door to shovel -->
 		<POI MapID="1188" xpos="74.55116" ypos="107.8251" zpos="167.634" type="echo.w4.mopre.pm.pex" GUID="vZIpKicVI0eYWJ3pssgdNw=="/>
 		<POI MapID="1188" xpos="-46.406" ypos="96.42278" zpos="188.6518" type="echo.w4.mopre.pm.pe" GUID="Mq3UprDHyESktCKRXAGU+Q=="/>
+
+
 		
 		<!-- Deimos -->
 		<!-- Deimos directions -->
