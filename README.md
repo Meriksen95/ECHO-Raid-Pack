@@ -8,7 +8,7 @@ This pack is made for Guild Wars 2, specifically for the ECHO Chamber guild and 
 Feel free to join our [Discord](https://discord.gg/mzHMCqSrcu)
 
 
-<img width="2333" height="509" alt="image" src="https://github.com/user-attachments/assets/3d395c92-f413-4379-a62f-c23fc8b4e1a1" />
+<img width="2309" height="494" alt="image" src="https://github.com/user-attachments/assets/13818146-4c83-476d-bf75-8a1004196dc1" />
 These are the markers included in this pack, in addition to the well-known in-game symbols.
 
 ### From left to right:
