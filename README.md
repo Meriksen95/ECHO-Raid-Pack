@@ -7,7 +7,8 @@ This pack is made for Guild Wars 2, specifically for the ECHO Chamber guild and 
 
 Feel free to join our [Discord](https://discord.gg/mzHMCqSrcu)
 
-<img width="2865" height="565" alt="image" src="https://github.com/user-attachments/assets/6089c107-ff66-4d4d-9b94-d162dcf655f9" />
+
+<img width="2333" height="509" alt="image" src="https://github.com/user-attachments/assets/3d395c92-f413-4379-a62f-c23fc8b4e1a1" />
 These are the markers included in this pack, in addition to the well-known in-game symbols.
 
 ### From left to right:
@@ -19,3 +20,5 @@ These are the markers included in this pack, in addition to the well-known in-ga
 6. Stealth marker
 7. Portal enter
 8. Portal exit
+9. Spawn marker
+10. Task information (used in Echo Chamber (tuesday group)
