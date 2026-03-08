@@ -25,6 +25,6 @@ These are the markers included in this pack, in addition to the well-known in-ga
 
 ## How to install
 1. Make sure you have [BlishHud](https://blishhud.com/), [TaimiHud](https://taimihud.com/) or equelivant installed.
-2. Download the [TACO file](https://github.com/Meriksen95/ECHO-Raid-Pack/releases/latest/download/ECHO-Raid-Pack.taco) and place it in your C:\ ... \Documents\Guild Wars 2\addons\blishhud\markers folder. 
+2. Download the [TACO file](https://github.com/Meriksen95/ECHO-Raid-Pack/releases/latest/download/ECHO-Raid-Pack.taco) and place it in your "C:\ ... \Documents\Guild Wars 2\addons\blishhud\markers" folder. 
 If you are to upgrade to a newer version you can simply overwrite the old one with the new one
-3. Once placed in your folder you can reload BlishHud for it to appear
+4. Once placed in your folder you can reload BlishHud for it to appear
