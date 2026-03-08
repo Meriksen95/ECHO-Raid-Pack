@@ -23,6 +23,6 @@ These are the markers included in this pack, in addition to the well-known in-ga
 9. Spawn marker
 10. Task information (used in Echo Chamber (tuesday group)
 
-##How to install
+## How to install
 Download the TACO file from above and place it in your C:\ ... \Documents\Guild Wars 2\addons\blishhud\markers folder. 
 If you are to upgrade to a newer version you can simply overwrite the old one with the new one
