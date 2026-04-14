@@ -84,7 +84,7 @@
 				<!-- Group path -->
 				<MarkerCategory name="gp" displayName="Group path" texture="Data/arrow.png" animSpeed="2" alpha="0.6" defaulttoggle="0" fadeNear="3500" fadeFar="4000">
 					<MarkerCategory name="pug" displayName="Pug strat" defaulttoggle="0"/>
-					<MarkerCategory name="common" displayName="Common"defaulttoggle="1"/>
+					<MarkerCategory name="common" displayName="Common" defaulttoggle="1"/>
 					<MarkerCategory name="1" displayName="Fountain" defaulttoggle="0"/>
 					<MarkerCategory name="2" displayName="Skip" defaulttoggle="0">
 						<MarkerCategory name="tm" displayName="Target marker" iconFile="Data/Markers/target_marker.png"/>
